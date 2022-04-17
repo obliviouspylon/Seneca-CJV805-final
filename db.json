@@ -1,0 +1,1334 @@
+{
+  "listings": [
+    {
+      "id": 1,
+      "title": "Toronto Lovers Island",
+      "img": "/img/listings/resort1.webp",
+      "description": "Etiam vulputate ipsum congue magna tempor tincidunt. Aliquam erat volutpat. Sed ac luctus ante. Cras sagittis metus mi, eu pharetra libero vulputate aliquam. Morbi eu sagittis dui. Aliquam maximus imperdiet urna, ut blandit odio aliquet sed. Morbi vulputate dolor at dapibus rhoncus. Proin interdum purus ac nisi feugiat, eget facilisis mauris auctor. Fusce commodo scelerisque felis, quis egestas dolor elementum sit amet. Nulla eget sem non diam vulputate mattis ut at nibh. Integer quis urna aliquet, gravida purus non, lobortis orci. Donec pharetra lacinia lacus ut pretium. Integer faucibus dapibus dignissim.",
+      "price": 91.0,
+      "type": "Hotel",
+      "location": "Toronto, Ontario",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "Nulla id magna a tortor ornare interdum.",
+          "Integer hendrerit quam eget dolor vestibulum, at fringilla turpis semper.",
+          "Morbi interdum mi non purus condimentum rhoncus.",
+          "Integer sit amet odio at sapien dictum dictum.",
+          "Etiam posuere ex eu posuere semper."
+      ]
+  },
+  {
+      "id": 2,
+      "title": "Brampton Special Condos",
+      "img": "/img/listings/resort2.webp",
+      "description": "In et dui eu arcu aliquet elementum at posuere ante. Quisque nisi dolor, consectetur a maximus non, congue id tellus. Morbi pulvinar non purus ac volutpat. Phasellus dignissim libero ut justo tempus rutrum. Mauris pretium porttitor sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean quis porta dui, vitae blandit tellus.",
+      "price": 181.0,
+      "type": "Aprartments",
+      "location": "Brampton, Ontario",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Phasellus accumsan felis tempus risus facilisis, sit amet tempor leo dictum.",
+          "Maecenas ultricies ligula et erat sagittis, ullamcorper bibendum odio ornare.",
+          "Nam pharetra enim vel nunc volutpat, eget dignissim leo euismod.",
+          "Maecenas consequat lorem at sem interdum, sit amet placerat sapien commodo.",
+          "Donec imperdiet felis nec imperdiet lobortis."
+      ]
+  },
+  {
+      "id": 3,
+      "title": "Trinidad and Tobago Island Life Apartments",
+      "img": "/img/listings/resort3.webp",
+      "description": "Donec efficitur arcu id vestibulum sagittis. Morbi venenatis nibh diam, at egestas nisl porttitor nec. Praesent et tortor dictum orci fermentum interdum a et nisi. Etiam sollicitudin euismod tincidunt. Praesent lacinia malesuada velit, eu maximus velit pulvinar in. Nam quis dui lobortis, elementum mauris nec, venenatis neque. Morbi sit amet viverra ex, eget varius ex. Aenean semper libero vitae ligula pharetra sollicitudin. Aenean ante turpis, venenatis ut velit eu, ultricies blandit dui. Pellentesque aliquam nulla non lacus interdum malesuada.",
+      "price": 175.0,
+      "type": "Resorts",
+      "location": "Trinidad and Tobago",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Praesent vulputate enim quis sollicitudin viverra.",
+          "Aenean congue lacus vitae rhoncus commodo.",
+          "Nunc quis ligula sit amet mi consectetur tincidunt et eu purus.",
+          "In ac dolor quis augue vulputate efficitur vitae quis sem.",
+          "In aliquet mauris at auctor consectetur."
+      ]
+  },
+  {
+      "id": 4,
+      "title": "Netflix and Chill House",
+      "img": "/img/listings/resort4.webp",
+      "description": "Pellentesque luctus odio sed dignissim tincidunt. Praesent sollicitudin odio ac elementum tempor. Pellentesque viverra magna congue maximus congue. Vestibulum et placerat enim. Donec sollicitudin sollicitudin diam, sed eleifend tortor accumsan vel. Donec condimentum elit quis lectus tempus lacinia. Nam vel libero dapibus urna porttitor blandit ac eu est. Ut at eros vitae mi scelerisque fringilla. Vestibulum sed ex eu ipsum commodo scelerisque a at elit. Vestibulum at enim sed erat commodo volutpat. Donec luctus sed ex non facilisis. Quisque convallis libero et erat pellentesque eleifend. Pellentesque pellentesque, augue a bibendum lacinia, diam tellus faucibus urna, a feugiat nisl urna non nisl. Cras quam dolor, porta a accumsan eget, tincidunt ut nulla. Proin porta quam sodales lorem dignissim, sed ullamcorper libero cursus.",
+      "price": 260.0,
+      "type": "Condos",
+      "location": "Montreal, Quebec",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Cras molestie libero ac augue congue vestibulum.",
+          "Vestibulum quis ex eget magna tempus tristique scelerisque sed est.",
+          "Sed quis purus ac libero feugiat elementum.",
+          "Maecenas vitae neque mollis, mollis urna at, convallis sem.",
+          "Suspendisse vitae urna ac ex semper pulvinar."
+      ]
+  },
+  {
+      "id": 5,
+      "title": "Max House",
+      "img": "/img/listings/resort1.webp",
+      "description": "Suspendisse potenti. Cras urna nibh, mattis non dolor pharetra, pulvinar efficitur justo. Phasellus hendrerit neque a nibh faucibus ornare. Mauris semper nulla id dolor venenatis dictum. Fusce pretium ultricies urna, vitae bibendum ligula varius sit amet. Nunc varius, ligula id dictum pretium, diam eros porttitor nunc, vitae rutrum urna libero eget est. Nullam commodo purus tellus, quis hendrerit dui consequat ac. Phasellus eu egestas lacus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec venenatis quam ac purus eleifend tincidunt. Sed id est eget nunc malesuada faucibus in in nisl. Donec dictum lorem nunc, eget vulputate erat luctus in. Morbi sodales felis et ornare euismod. Proin nibh nisi, consequat eu ligula sit amet, efficitur molestie turpis.",
+      "price": 216.0,
+      "type": "Motels",
+      "location": "Vancouver, British Columbia",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Etiam vitae enim aliquet, tempor nisl eu, finibus enim.",
+          "Mauris accumsan mauris sed arcu ornare semper.",
+          "Nullam non quam nec eros gravida posuere at nec tellus.",
+          "Sed iaculis felis vel ante ultricies sodales.",
+          "Pellentesque aliquet dui ut ipsum pretium viverra.",
+          "Phasellus vehicula justo quis blandit viverra."
+      ]
+  },
+  {
+      "id": 6,
+      "title": "Beach Flood",
+      "img": "/img/listings/resort2.webp",
+      "description": "Quisque ut hendrerit tellus. Ut eu nisl sodales, porttitor leo ut, rutrum augue. Proin et fringilla ex, placerat varius erat. Duis dictum magna at lorem vestibulum tempor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec semper lacus euismod lacus scelerisque luctus. Aliquam varius, nisi ac sodales porttitor, turpis metus mattis ligula, ac finibus neque magna et orci. Phasellus a ipsum dictum, tincidunt mi et, molestie nisi. Phasellus vel odio sed mauris tempus ornare sed eu massa. Nam fermentum imperdiet aliquet.",
+      "price": 114.0,
+      "type": "Condos",
+      "location": "Victoria, British Columbia",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Morbi sed urna vel lectus tempor venenatis id nec dolor.",
+          "Curabitur vulputate turpis vitae lorem tempus, ac dictum risus molestie.",
+          "In non erat sagittis, imperdiet erat nec, gravida felis.",
+          "Maecenas vel tortor vel purus maximus tempor.",
+          "Aenean et neque eget metus consequat facilisis nec sed nisl.",
+          "Donec consequat velit eu urna eleifend lacinia."
+      ]
+  },
+  {
+      "id": 7,
+      "title": "Beach Timber",
+      "img": "/img/listings/resort3.webp",
+      "description": "Aenean ac metus laoreet magna auctor aliquet. Pellentesque quis sodales dui. Nulla fringilla ipsum tellus, eu aliquam ante tincidunt in. Praesent eget nibh finibus, fermentum turpis in, sollicitudin nunc. Fusce in velit eget orci facilisis fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas risus mi, pellentesque sit amet risus id, blandit porttitor nunc. Vivamus nec posuere tortor. Nullam efficitur ultricies felis, vitae accumsan neque rutrum et. Nullam pretium hendrerit ipsum in ullamcorper. Vestibulum non augue viverra, facilisis metus in, consequat nisl. Integer sed egestas nibh. Aenean eu lectus diam. Ut eu risus dolor. Morbi tincidunt diam libero, in pretium sapien tincidunt ut.",
+      "price": 81.0,
+      "type": "Hotels",
+      "location": "Fredericton, New Brunswick",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Donec venenatis dolor quis egestas aliquam.",
+          "Mauris scelerisque neque eget arcu vulputate placerat.",
+          "Duis euismod quam pretium volutpat venenatis.",
+          "Sed volutpat risus eget lorem porttitor, ut porttitor ex malesuada.",
+          "Fusce non massa vitae quam vehicula facilisis."
+      ]
+  },
+  {
+      "id": 8,
+      "title": "Sea Ocean",
+      "img": "/img/listings/resort4.webp",
+      "description": "Proin gravida nibh a justo condimentum semper. Vestibulum purus nibh, elementum eget vehicula ac, faucibus ac enim. Sed aliquam condimentum condimentum. Suspendisse dapibus lectus vel ipsum varius tincidunt. Vivamus odio ligula, tincidunt et nisl at, luctus interdum est. Suspendisse leo diam, gravida ut fringilla vel, euismod ut lacus. Mauris aliquam tincidunt quam, in sollicitudin massa. Aenean placerat facilisis diam non vestibulum. Ut ullamcorper eros non convallis iaculis. Mauris placerat sem urna, in dignissim dui vehicula vitae. Nunc a metus ut nibh ullamcorper faucibus. Aenean imperdiet ligula eu ex fringilla, sed luctus augue iaculis. Sed lacinia est sem, ac auctor ipsum finibus vitae. Etiam consectetur venenatis justo sed laoreet.",
+      "price": 89.0,
+      "type": "Resorts",
+      "location": "Edmonton, Alberta",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Suspendisse a nulla fringilla, dignissim augue in, lacinia eros.",
+          "Sed convallis purus non turpis aliquet, et aliquam urna dictum.",
+          "Suspendisse sed neque aliquam purus tincidunt ullamcorper vitae quis odio.",
+          "Sed tincidunt libero eget tellus euismod interdum.",
+          "Nullam vitae orci maximus, porta ex et, pulvinar orci."
+      ]
+  },
+  {
+      "id": 9,
+      "title": "Camp Rebel",
+      "img": "/img/listings/resort1.webp",
+      "description": "Pellentesque quis odio eu diam malesuada sagittis id quis justo. Donec vitae neque faucibus, ullamcorper massa non, blandit nunc. Nunc turpis metus, mollis quis tincidunt ut, egestas vel ligula. Vestibulum et laoreet purus, sit amet consectetur metus. Aenean blandit, leo in ornare ornare, enim libero molestie lacus, quis rhoncus leo nulla vitae augue. Nunc vitae mollis mi, volutpat lacinia lorem. Sed pretium viverra libero, convallis consequat orci mollis aliquet.",
+      "price": 104.0,
+      "type": "Condos",
+      "location": "Toronto, Ontario",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Donec sit amet augue semper lectus porttitor consequat.",
+          "Phasellus mattis est quis diam mollis rhoncus.",
+          "Nullam ut ligula nec purus ultricies euismod nec vel nulla.",
+          "Aenean et ipsum quis ligula aliquam tincidunt.",
+          "Etiam mattis magna aliquam sapien pellentesque pulvinar."
+      ]
+  },
+  {
+      "id": 10,
+      "title": "Beach Plains",
+      "img": "/img/listings/resort2.webp",
+      "description": "Maecenas dolor ex, euismod in semper vitae, venenatis et dolor. Proin a ultricies nibh. Curabitur volutpat ligula nunc, nec tempus purus facilisis eget. Cras velit leo, mattis nec ex ut, tempor tincidunt orci. Nam porta ac sapien eu consequat. Donec pharetra maximus diam, non euismod orci hendrerit ut. Vivamus et risus a lectus fermentum consequat. Ut ac erat a risus blandit tristique eget ac massa.",
+      "price": 170.0,
+      "type": "Bed and Breakfast",
+      "location": "Fredericton, New Brunswick",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "In posuere diam ut dui accumsan dignissim.",
+          "Phasellus vulputate dui congue leo sollicitudin auctor.",
+          "Nunc bibendum sem sit amet metus vehicula, et sagittis nunc varius.",
+          "Nullam in leo sit amet ligula feugiat aliquet."
+      ]
+  },
+  {
+      "id": 11,
+      "title": "Camp Wind",
+      "img": "/img/listings/resort3.webp",
+      "description": "Quisque ac tempor quam, in tempus neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur placerat libero ut ex eleifend, ac lacinia metus sollicitudin. Phasellus a nibh faucibus dolor commodo ornare id ut tortor. Curabitur in est arcu. Sed tempus ante est, at tristique est dignissim consequat. Nullam sodales facilisis neque id hendrerit. Quisque nec iaculis ligula, at efficitur sapien. Vestibulum mollis dictum augue, a consectetur erat iaculis lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra at odio a tristique. Nulla quam sapien, finibus in imperdiet sit amet, aliquam tempor enim. Suspendisse potenti.",
+      "price": 200.0,
+      "type": "Apartments",
+      "location": "Halifax, Nova Scotia",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Integer imperdiet mi sed ullamcorper pulvinar.",
+          "Phasellus ullamcorper neque id ligula semper, eu aliquam libero posuere.",
+          "Fusce vulputate libero tempus justo finibus elementum.",
+          "Nulla vel urna in libero dictum tincidunt."
+      ]
+  },
+  {
+      "id": 12,
+      "title": "Vacation Zone",
+      "img": "/img/listings/resort4.webp",
+      "description": "In in molestie orci. Phasellus cursus orci augue, sed accumsan quam porttitor nec. Sed posuere commodo diam maximus rhoncus. Nullam blandit nunc ut purus fringilla dictum. Praesent leo arcu, blandit non mauris at, viverra bibendum urna. Mauris finibus tortor et auctor gravida. Morbi eu mattis neque. Proin nec lacus vel quam dapibus aliquet eu vitae ante. Integer lobortis purus vel metus porta, in luctus ante consectetur. Maecenas ac eros dictum, tristique dui a, cursus magna. Suspendisse vulputate malesuada nibh, ac vestibulum felis lacinia quis. Sed magna massa, venenatis quis tellus eget, rhoncus sollicitudin quam. Integer fringilla risus eget cursus euismod. Donec turpis risus, semper nec nisi vitae, viverra sodales ante.",
+      "price": 166.0,
+      "type": "Apartments",
+      "location": "Winnipeg, Manitoba",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Sed et nisi at dui maximus blandit.",
+          "Sed sodales nisl et hendrerit consequat.",
+          "Proin sodales ipsum non dui vestibulum dapibus."
+      ]
+  },
+  {
+      "id": 13,
+      "title": "Vacation Garnet",
+      "img": "/img/listings/resort1.webp",
+      "description": "Praesent fringilla quis ex pulvinar tincidunt. Integer commodo suscipit elit, eget laoreet ante imperdiet sit amet. Maecenas sit amet magna in augue pulvinar rhoncus. Proin consectetur nibh vel porttitor volutpat. Nam vulputate, diam eu auctor convallis, ligula purus rutrum mauris, eget placerat magna nisl ut arcu. Nam vitae neque tincidunt, tempus nulla vel, auctor libero. Donec id hendrerit quam. Praesent quam arcu, eleifend sit amet sodales et, varius nec libero. Aliquam odio nulla, tincidunt sed lorem at, semper maximus est. Curabitur vitae porttitor lacus, vitae viverra tortor. Integer aliquam sem et enim vestibulum, sit amet mattis nunc convallis. Duis quis justo non felis ultricies feugiat. Nullam nec libero id lectus scelerisque suscipit. Mauris finibus justo est, nec laoreet turpis lobortis eu.",
+      "price": 100.0,
+      "type": "Apartments",
+      "location": "Victoria, British Columbia",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Proin sollicitudin dolor at tellus volutpat volutpat.",
+          "Sed sit amet dui efficitur, posuere eros vel, auctor dolor.",
+          "Quisque ut nunc sit amet nisi iaculis molestie eget et ex."
+      ]
+  },
+  {
+      "id": 14,
+      "title": "Beach Lioness",
+      "img": "/img/listings/resort2.webp",
+      "description": "Nam tempor venenatis sapien. Nam vel libero vel lacus maximus consequat. Donec felis ex, aliquet eget erat id, tincidunt luctus neque. Nulla fermentum ultricies odio vitae fringilla. Morbi sollicitudin, leo nec ultricies efficitur, justo nibh tincidunt sapien, in ultrices nulla lorem in diam. Vivamus at leo justo. Duis eget sem vel turpis finibus feugiat. Morbi sit amet cursus felis. Suspendisse potenti. Phasellus et congue nisi.",
+      "price": 115.0,
+      "type": "House",
+      "location": "Edmonton, Alberta",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Aliquam consequat nisi sollicitudin venenatis fermentum.",
+          "Cras dignissim velit eget placerat vestibulum.",
+          "Fusce lobortis felis eu sem porta ultricies."
+      ]
+  },
+  {
+      "id": 15,
+      "title": "Vacation Blend",
+      "img": "/img/listings/resort3.webp",
+      "description": "Pellentesque ac rutrum purus. Morbi porttitor sollicitudin ligula ut convallis. Aliquam vitae volutpat sem. Sed nec ullamcorper erat, a tristique nisl. Cras vitae elit nisi. Phasellus malesuada purus quis nisl malesuada ultrices. Vestibulum bibendum et nibh vitae dapibus. Quisque eget ornare lorem. Phasellus tempus magna eget sodales faucibus. Nunc feugiat condimentum lectus eu congue.",
+      "price": 166.0,
+      "type": "Hotels",
+      "location": "Halifax, Nova Scotia",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Integer id erat vel lacus porttitor vulputate sed et tortor.",
+          "Phasellus luctus leo vitae vulputate auctor.",
+          "Maecenas ac quam a purus iaculis condimentum."
+      ]
+  },
+  {
+      "id": 16,
+      "title": "Plane Keep",
+      "img": "/img/listings/resort4.webp",
+      "description": "Nulla facilisi. Nullam lacinia massa mi, et vestibulum sapien placerat bibendum. Donec vulputate venenatis magna, ac egestas turpis viverra in. Quisque tincidunt est mauris. Ut sit amet tempor velit, sit amet ultricies tortor. Fusce hendrerit eleifend facilisis. Cras sem justo, efficitur quis lacus condimentum, dignissim rhoncus enim. Cras non turpis tellus. Sed volutpat neque in ante convallis commodo. Sed sagittis risus nibh, et tincidunt tellus tempor sit amet. Vestibulum ligula eros, euismod sit amet lorem et, luctus hendrerit nulla. In eu est molestie, lobortis nulla a, fermentum enim.",
+      "price": 270.0,
+      "type": "House",
+      "location": "Toronto, Ontario",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Nam at lectus id enim sodales bibendum in at leo.",
+          "Fusce ac metus eget nunc vestibulum porta sit amet quis sapien.",
+          "Nam id leo ac erat viverra interdum cursus vel nibh."
+      ]
+  },
+  {
+      "id": 17,
+      "title": "Sea Divine",
+      "img": "/img/listings/resort1.webp",
+      "description": "Aenean sapien eros, sagittis a augue quis, varius rutrum ante. Pellentesque nec augue et ipsum condimentum pharetra id eu ante. Curabitur accumsan nec velit vestibulum semper. Nunc consectetur, arcu eget aliquet laoreet, velit est tincidunt ligula, molestie accumsan libero lacus sed ligula. Nulla sit amet nibh quis nisi consequat feugiat id eget sem. Pellentesque ipsum sem, ullamcorper interdum iaculis sit amet, venenatis sit amet lectus. Nam vitae ultricies orci. Nunc vitae efficitur felis. Donec lobortis lacus sem, vel egestas lacus sollicitudin accumsan. Ut condimentum, augue non mattis luctus, ipsum nulla rutrum urna, sed euismod ipsum dui vel neque. Etiam lorem leo, faucibus et vehicula non, sollicitudin ut ex. Nulla a mauris ex. Pellentesque lobortis sapien auctor nibh bibendum tincidunt.",
+      "price": 113.0,
+      "type": "Condos",
+      "location": "Victoria, British Columbia",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Aliquam euismod est tempor dolor tempor vestibulum.",
+          "Sed auctor nisl a vulputate lobortis.",
+          "Praesent vitae nisi id elit fringilla convallis quis vitae odio."
+      ]
+  },
+  {
+      "id": 18,
+      "title": "Camp Original",
+      "img": "/img/listings/resort2.webp",
+      "description": "In lacinia lacinia enim at vestibulum. Aliquam et ultrices ligula. Maecenas malesuada est in lacinia iaculis. Ut vel arcu ex. Praesent feugiat euismod lacus eu tincidunt. Sed sit amet sollicitudin dui. Praesent ut rutrum quam. Curabitur ultricies odio ante, quis tristique enim dictum sed. Duis et turpis at quam sodales bibendum ut a nisl. Donec faucibus tincidunt sem, non molestie tellus suscipit et. Vestibulum aliquam congue mauris, egestas semper quam fermentum ac. Etiam at metus congue, convallis arcu nec, porttitor dui. Sed aliquet pretium ornare. Vestibulum accumsan sagittis odio eu condimentum. Nulla facilisi.",
+      "price": 83.0,
+      "type": "Resorts",
+      "location": "Halifax, Nova Scotia",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Aenean eget dui vitae massa rhoncus condimentum.",
+          "Curabitur eleifend dui vel arcu vulputate fermentum at non ex.",
+          "Suspendisse nec ex ullamcorper, maximus felis eu, molestie tellus."
+      ]
+  },
+  {
+      "id": 19,
+      "title": "Sea Avid",
+      "img": "/img/listings/resort3.webp",
+      "description": "Duis sed lorem massa. Proin mollis ut ligula eu sagittis. Nunc malesuada ex quis ligula facilisis pharetra. Ut iaculis, orci et mollis tempus, ante ipsum vestibulum erat, a fermentum nisi est ac justo. Phasellus a risus eu est posuere efficitur. Nunc eget orci non velit interdum consequat ultrices sed odio. Cras molestie risus et risus sollicitudin sagittis. Mauris faucibus dictum lorem, non commodo risus sollicitudin quis. Vestibulum consequat efficitur consequat. Sed ultrices lectus lacus, et pulvinar sapien facilisis in. Aenean ut varius ligula, vel molestie nisl. In non sem egestas, facilisis sem sit amet, interdum enim.",
+      "price": 59.0,
+      "type": "House",
+      "location": "Edmonton, Alberta",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Integer vestibulum risus in dolor facilisis hendrerit.",
+          "Nulla consequat nibh vel posuere posuere.",
+          "Integer consequat mi vitae mauris eleifend, ac interdum metus rutrum."
+      ]
+  },
+  {
+      "id": 20,
+      "title": "Sea Bright",
+      "img": "/img/listings/resort4.webp",
+      "description": "Nullam cursus leo nunc. Ut vitae turpis nec est finibus fringilla. Sed vestibulum purus ut nunc tincidunt, nec tempor odio suscipit. Pellentesque et lacus leo. Vestibulum dolor mauris, euismod non dui sit amet, faucibus molestie nibh. Etiam finibus tortor vitae rutrum luctus. Nulla ligula lacus, facilisis et sem in, imperdiet semper nulla. Nulla mattis, est eget accumsan maximus, ipsum mauris eleifend magna, laoreet volutpat sem augue ut mi. Fusce faucibus neque dignissim nunc porttitor, nec condimentum dui congue. Proin ullamcorper, libero eget faucibus lobortis, sem enim rhoncus nisl, nec sollicitudin ligula lectus ac elit. Suspendisse a sollicitudin orci. In suscipit et lorem non facilisis. Morbi laoreet, nisi vel malesuada elementum, justo nisl placerat leo, varius facilisis lorem augue vel magna.",
+      "price": 298.0,
+      "type": "Hotels",
+      "location": "Quebec City, Quebec",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Morbi porttitor nibh a commodo rhoncus.",
+          "Etiam ac sem id mi ultricies feugiat nec quis neque.",
+          "Sed varius arcu ut pellentesque pretium."
+      ]
+  },
+  {
+      "id": 21,
+      "title": "Vacation Lost",
+      "img": "/img/listings/resort1.webp",
+      "description": "Nullam aliquet risus in nibh ullamcorper porta. Aliquam eleifend pellentesque pharetra. Integer faucibus nec libero et finibus. Integer quis lectus a nibh molestie blandit. Nulla iaculis, ante sit amet pellentesque cursus, nisi ligula varius orci, quis sollicitudin justo eros vel turpis. Duis lacinia diam luctus ultricies elementum. Integer interdum, est quis vulputate maximus, est ante malesuada lectus, nec semper sem augue in nisl. Aliquam pulvinar diam nunc, nec sagittis dui efficitur at. Quisque ut urna fermentum, ullamcorper arcu gravida, volutpat eros. Morbi ornare ligula sit amet felis tempor dictum. Pellentesque sit amet eros eu dui lacinia viverra. Praesent tincidunt eros vitae justo mollis ultricies. Suspendisse sit amet dolor eu odio pellentesque lobortis. Vestibulum semper tellus eu dictum dignissim.",
+      "price": 95.0,
+      "type": "Bed and Breakfast",
+      "location": "Charlottetown, Prince Edward Island",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Duis scelerisque purus sed quam venenatis commodo.",
+          "Phasellus vel ipsum ut orci vestibulum ultrices.",
+          "Cras sagittis sem imperdiet hendrerit aliquet.",
+          "Etiam posuere ex eu posuere semper."
+      ]
+  },
+  {
+      "id": 22,
+      "title": "Vacation Reclaim",
+      "img": "/img/listings/resort2.webp",
+      "description": "Cras sed lacus nec eros pellentesque posuere. Aliquam vitae lobortis massa. Donec non leo urna. Vivamus volutpat luctus nunc ut gravida. Nulla id ligula ut ex sodales ullamcorper. Phasellus a nisi nisi. Morbi semper facilisis metus, nec lacinia nulla pretium quis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc laoreet molestie ligula non dictum. Aenean nec arcu libero.",
+      "price": 156.0,
+      "type": "Apartments",
+      "location": "St. John's, Newfoundland and Labrador",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Fusce quis nisi hendrerit massa ultrices interdum varius id odio.",
+          "Mauris interdum velit quis rhoncus dapibus.",
+          "Fusce id est non magna porta bibendum et eu purus.",
+          "Duis non dui sed diam imperdiet semper."
+      ]
+  },
+  {
+      "id": 23,
+      "title": "Vacation Tour",
+      "img": "/img/listings/resort3.webp",
+      "description": "Quisque mauris est, interdum consectetur leo vitae, fringilla scelerisque lorem. Curabitur felis eros, pretium sed dolor ac, dapibus mollis turpis. Aliquam erat volutpat. Praesent sit amet feugiat leo. Curabitur eget magna arcu. Cras consequat semper fringilla. Ut volutpat tristique consectetur. Quisque porta bibendum neque. Mauris sit amet lacinia sem, elementum ullamcorper augue. Aliquam non facilisis ipsum. Praesent non gravida quam.",
+      "price": 253.0,
+      "type": "Apartments",
+      "location": "Victoria, British Columbia",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Vivamus in nisi blandit, porta nisi in, suscipit libero.",
+          "Mauris accumsan arcu egestas nunc efficitur eleifend.",
+          "Curabitur porta odio eu condimentum ultricies.",
+          "Morbi interdum mi non purus condimentum rhoncus.",
+          "Donec dictum sem at enim tempus viverra."
+      ]
+  },
+  {
+      "id": 24,
+      "title": "Plane Array",
+      "img": "/img/listings/resort4.webp",
+      "description": "Proin quis mi quis est congue condimentum eu sit amet elit. Maecenas viverra interdum velit, in commodo diam iaculis sed. Praesent semper volutpat nisi, sit amet sodales magna tincidunt nec. Vestibulum placerat ex neque, quis varius elit feugiat eget. Ut bibendum leo nec urna fermentum suscipit. Mauris nec mollis eros. Mauris lectus turpis, laoreet et nunc sit amet, rhoncus tincidunt est. Fusce ac tempus ligula. Donec venenatis ipsum id ligula convallis pretium. Vivamus pulvinar vulputate volutpat.",
+      "price": 162.0,
+      "type": "Resorts",
+      "location": "Edmonton, Alberta",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Nam sed est porttitor quam ultricies auctor quis eget massa.",
+          "Quisque interdum sapien vel massa consectetur tempor.",
+          "Curabitur quis lorem et ex laoreet lobortis sed non turpis.",
+          "Maecenas consequat lorem at sem interdum, sit amet placerat sapien commodo.",
+          "Maecenas sit amet enim id nibh rutrum consequat."
+      ]
+  },
+  {
+      "id": 25,
+      "title": "Plane Madras",
+      "img": "/img/listings/resort1.webp",
+      "description": "Ut non velit tortor. Curabitur dui eros, convallis sed ante quis, aliquam sodales neque. Donec et maximus quam. Maecenas consequat risus in nibh faucibus, a tincidunt mauris auctor. Integer sit amet mauris iaculis lectus sollicitudin pellentesque. Mauris viverra imperdiet mi a pellentesque. Etiam laoreet pharetra pulvinar. Integer bibendum, purus nec semper posuere, erat sem convallis mi, nec placerat arcu elit at nulla. Sed maximus scelerisque mauris, vitae porta quam posuere non. Nullam placerat, massa vel ornare maximus, nisi mauris aliquet felis, volutpat sollicitudin dolor lorem vel ex. Maecenas nec pharetra dui. Ut ullamcorper gravida dolor, vitae pharetra lectus interdum eget. Cras sagittis turpis at tortor fermentum, quis vestibulum lacus varius. Aliquam lacinia nunc justo, ut euismod tortor posuere in. Donec porta eu odio sit amet pretium. Praesent dignissim pulvinar neque vitae lacinia.",
+      "price": 224.0,
+      "type": "Resorts",
+      "location": "Victoria, British Columbia",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Sed at mi vitae dui posuere euismod at eu ante.",
+          "Aliquam at sapien sed enim suscipit lobortis a a dolor.",
+          "Phasellus facilisis est varius, sodales lorem id, sollicitudin nisl.",
+          "In ac dolor quis augue vulputate efficitur vitae quis sem.",
+          "Phasellus vehicula justo quis blandit viverra."
+      ]
+  },
+  {
+      "id": 26,
+      "title": "Vacation Snow",
+      "img": "/img/listings/resort2.webp",
+      "description": "Donec blandit quis ipsum ut pulvinar. Nullam porta id nisl ut eleifend. Donec ullamcorper rhoncus elit vel venenatis. Morbi leo felis, pulvinar id maximus eget, convallis nec orci. In volutpat lobortis est, quis euismod nunc venenatis vitae. Curabitur metus orci, tempor nec fringilla nec, ultrices eget elit. Morbi vel purus libero. Ut magna magna, egestas eu euismod id, rhoncus ut felis. Suspendisse eu lectus vel dolor dictum pharetra. Suspendisse potenti.",
+      "price": 285.0,
+      "type": "Apartments",
+      "location": "St. John's, Newfoundland and Labrador",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Donec dapibus risus nec urna accumsan consequat.",
+          "Maecenas sed erat ac turpis eleifend porttitor.",
+          "Sed varius leo quis metus efficitur, eget elementum sapien egestas.",
+          "Maecenas vitae neque mollis, mollis urna at, convallis sem.",
+          "Donec consequat velit eu urna eleifend lacinia."
+      ]
+  },
+  {
+      "id": 27,
+      "title": "Camp Amber",
+      "img": "/img/listings/resort3.webp",
+      "description": "Vestibulum laoreet ipsum justo, at porta augue tincidunt ut. Vivamus accumsan posuere nisl, sit amet porta tortor imperdiet at. Proin viverra commodo odio venenatis gravida. In ut blandit sapien, quis sagittis magna. Morbi vel bibendum elit, luctus pellentesque erat. Aliquam ut facilisis nibh. Aenean placerat, eros a dignissim malesuada, ligula lacus rhoncus odio, eu consequat velit massa eu odio. Duis elementum imperdiet dolor, id bibendum odio placerat vitae. Donec et pharetra purus. Ut quis semper ipsum. Phasellus ut convallis sem, sit amet mattis enim. Nunc cursus lacus a risus egestas, at tristique elit consequat. In hac habitasse platea dictumst.",
+      "price": 152.0,
+      "type": "Apartments",
+      "location": "Regina, Saskatchewan",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Integer ornare neque et turpis consequat, sit amet semper elit efficitur.",
+          "Curabitur vitae neque pretium, mattis nunc eget, tincidunt metus.",
+          "Maecenas facilisis diam nec tellus consectetur, nec efficitur ligula fermentum.",
+          "Sed iaculis felis vel ante ultricies sodales.",
+          "Fusce non massa vitae quam vehicula facilisis."
+      ]
+  },
+  {
+      "id": 28,
+      "title": "Beach Grande",
+      "img": "/img/listings/resort4.webp",
+      "description": "Ut vehicula eleifend libero at condimentum. Suspendisse viverra, odio a bibendum cursus, dui mauris tincidunt sem, vitae aliquet nisl massa egestas elit. Mauris sit amet mattis justo, at sagittis purus. Morbi elementum blandit dui eu malesuada. Sed a imperdiet felis. Aliquam at justo magna. Pellentesque rutrum rhoncus justo, quis finibus tortor.",
+      "price": 296.0,
+      "type": "Condos",
+      "location": "St. John's, Newfoundland and Labrador",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Etiam nec orci id lacus facilisis eleifend eu et sapien.",
+          "Nulla interdum quam a diam posuere sagittis.",
+          "Donec consequat nibh eget commodo ornare.",
+          "Maecenas vel tortor vel purus maximus tempor.",
+          "Integer sit amet odio at sapien dictum dictum.",
+          "Nullam vitae orci maximus, porta ex et, pulvinar orci."
+      ]
+  },
+  {
+      "id": 29,
+      "title": "Villa Grande",
+      "img": "/img/listings/resort1.webp",
+      "description": "Donec est nulla, pharetra blandit maximus at, accumsan mollis nisl. Praesent vel tempor nibh. Duis imperdiet orci tellus, vitae sagittis est blandit eu. Etiam pretium felis non ultrices facilisis. Suspendisse mattis, augue vel accumsan faucibus, sem metus convallis odio, eu vestibulum mi augue eu nisi. Phasellus auctor mollis justo, vitae bibendum magna tincidunt ac. Aenean vel malesuada erat. Nulla at est lectus. Integer porta euismod tempus. Nullam efficitur posuere felis, ut tincidunt lacus cursus non. Etiam facilisis at enim sed sollicitudin.",
+      "price": 215.0,
+      "type": "Condos",
+      "location": "Fredericton, New Brunswick",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Praesent at augue et augue pretium rutrum eget at magna.",
+          "Nulla id magna a tortor ornare interdum.",
+          "Cras vel diam at sem maximus fringilla.",
+          "Donec imperdiet felis nec imperdiet lobortis.",
+          "Etiam mattis magna aliquam sapien pellentesque pulvinar."
+      ]
+  },
+  {
+      "id": 30,
+      "title": "Camp Trade",
+      "img": "/img/listings/resort2.webp",
+      "description": "Aliquam in lectus a nibh dictum consectetur sed sed massa. Nam sed laoreet odio, sed accumsan mi. Nulla consequat odio mattis augue maximus semper. Sed massa magna, pulvinar eget mauris sed, dapibus interdum quam. In hac habitasse platea dictumst. Curabitur tempus eleifend tellus in fermentum. Aliquam quis venenatis urna. Donec tincidunt justo fringilla, tristique leo nec, condimentum orci. Aenean ullamcorper sit amet orci at laoreet. Vivamus eu velit nulla.",
+      "price": 244.0,
+      "type": "Motels",
+      "location": "Toronto, Ontario",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Integer sed nulla eu nulla vehicula fermentum quis eget diam.",
+          "Maecenas ultricies ligula et erat sagittis, ullamcorper bibendum odio ornare.",
+          "Quisque elementum metus eu est porta, dictum pellentesque urna facilisis.",
+          "In aliquet mauris at auctor consectetur.",
+          "Nullam in leo sit amet ligula feugiat aliquet."
+      ]
+  },
+  {
+      "id": 31,
+      "title": "Villa Den",
+      "img": "/img/listings/resort3.webp",
+      "description": "Quisque ultrices lacus ac ipsum vehicula luctus. Ut egestas quam ut tempor commodo. Pellentesque sit amet orci lectus. Nulla lectus dui, aliquam ut leo volutpat, rhoncus molestie tellus. Aliquam euismod eros non accumsan hendrerit. Ut eu ante a ex tristique eleifend. Mauris finibus viverra nulla, ut eleifend sem suscipit ac. Proin pellentesque hendrerit felis, a feugiat lorem ullamcorper vitae. Curabitur in hendrerit lacus. Phasellus et ipsum ac tortor lobortis pharetra eu id sapien. Suspendisse sit amet nisl quis eros euismod egestas. Proin ut cursus est. Curabitur scelerisque molestie justo, ut interdum nunc volutpat vel.",
+      "price": 181.0,
+      "type": "House",
+      "location": "Fredericton, New Brunswick",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Etiam ullamcorper urna at luctus egestas.",
+          "Aenean congue lacus vitae rhoncus commodo.",
+          "Praesent et sem vitae sem molestie placerat quis ut nibh.",
+          "Suspendisse vitae urna ac ex semper pulvinar.",
+          "Nulla vel urna in libero dictum tincidunt."
+      ]
+  },
+  {
+      "id": 32,
+      "title": "Plane Journeyman",
+      "img": "/img/listings/resort4.webp",
+      "description": "Nullam fermentum, elit faucibus faucibus rhoncus, nulla libero semper nisi, sit amet condimentum augue sapien cursus felis. Morbi lacinia, lacus vel pharetra ultricies, enim mauris bibendum magna, ac ultricies nibh ante sit amet enim. Aliquam eget arcu lectus. Cras in nulla quam. Suspendisse nec felis aliquet, accumsan enim nec, gravida metus. In hac habitasse platea dictumst. Nullam finibus elit diam, nec placerat dui tristique et. Cras id lacus tempor, hendrerit est ac, hendrerit dui. Sed pharetra pellentesque magna, quis tempus mi bibendum eu. Morbi ac purus vitae purus pretium cursus. Nam id enim vitae ligula eleifend faucibus eu sit amet odio. Phasellus pulvinar aliquam massa. Sed nec porttitor leo.",
+      "price": 71.0,
+      "type": "Hotels",
+      "location": "Winnipeg, Manitoba",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Aliquam a elit feugiat erat efficitur tincidunt eget ut lorem.",
+          "Vestibulum quis ex eget magna tempus tristique scelerisque sed est.",
+          "Integer hendrerit quam eget dolor vestibulum, at fringilla turpis semper.",
+          "Pellentesque aliquet dui ut ipsum pretium viverra."
+      ]
+  },
+  {
+      "id": 33,
+      "title": "Beach Gear",
+      "img": "/img/listings/resort1.webp",
+      "description": "Aenean consectetur est eget convallis tincidunt. Integer et tellus id diam bibendum mollis et et ante. Phasellus a mollis massa, at tempor quam. Morbi nec hendrerit neque, sed gravida dolor. Pellentesque auctor ex vitae semper mattis. Ut ut iaculis purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi eget quam ipsum. Curabitur fermentum quam a mollis sagittis. Duis volutpat interdum mi a laoreet. Donec et aliquam dolor. Donec dapibus augue maximus augue porttitor condimentum.",
+      "price": 150.0,
+      "type": "Condos",
+      "location": "Winnipeg, Manitoba",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Nam posuere ipsum vitae nisl convallis sollicitudin.",
+          "Mauris accumsan mauris sed arcu ornare semper.",
+          "Nam pharetra enim vel nunc volutpat, eget dignissim leo euismod.",
+          "Aenean et neque eget metus consequat facilisis nec sed nisl."
+      ]
+  },
+  {
+      "id": 34,
+      "title": "Villa Attractive",
+      "img": "/img/listings/resort2.webp",
+      "description": "Phasellus rhoncus ultrices purus nec convallis. Sed commodo nunc id augue sollicitudin, ut accumsan sapien viverra. Suspendisse dignissim elit nisl. Morbi sed nisl sem. Proin quis purus in tortor tempor facilisis eget vitae tellus. Quisque dolor augue, maximus at nisi quis, mattis bibendum ante. Nam quis lectus in dui tincidunt euismod. Proin cursus elit at ipsum facilisis tincidunt.",
+      "price": 172.0,
+      "type": "Resorts",
+      "location": "St. John's, Newfoundland and Labrador",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Nam vehicula dui et nisl facilisis consequat.",
+          "Curabitur vulputate turpis vitae lorem tempus, ac dictum risus molestie.",
+          "Nunc quis ligula sit amet mi consectetur tincidunt et eu purus.",
+          "Sed volutpat risus eget lorem porttitor, ut porttitor ex malesuada."
+      ]
+  },
+  {
+      "id": 35,
+      "title": "Vacation Garage",
+      "img": "/img/listings/resort3.webp",
+      "description": "Nam ipsum arcu, tempor a orci in, ullamcorper placerat enim. Fusce id ipsum mauris. Ut id nisi nisi. Nullam vitae ultrices arcu. Donec a finibus justo. Nunc sollicitudin faucibus fringilla. Nam ac molestie arcu. Morbi quis nulla a risus tincidunt viverra. Vestibulum tempor rutrum metus, a lobortis nisi sagittis eu. Nulla mollis egestas malesuada. Integer condimentum sodales ipsum eget interdum. Integer porta a augue et fringilla. Morbi imperdiet nulla blandit libero vulputate finibus.",
+      "price": 195.0,
+      "type": "Condos",
+      "location": "Regina, Saskatchewan",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Nunc ut lorem ornare, tempor nisl quis, faucibus ex.",
+          "Mauris scelerisque neque eget arcu vulputate placerat.",
+          "Sed quis purus ac libero feugiat elementum.",
+          "Sed tincidunt libero eget tellus euismod interdum."
+      ]
+  },
+  {
+      "id": 36,
+      "title": "Sea Chard",
+      "img": "/img/listings/resort4.webp",
+      "description": "Integer efficitur a dolor vel aliquet. Phasellus sagittis nunc tincidunt, pulvinar erat eu, cursus ligula. Etiam rhoncus, turpis vel sagittis gravida, purus ante tempor dui, eu malesuada magna risus at enim. Ut faucibus, est eget molestie auctor, lectus turpis laoreet mi, vitae mollis justo eros eu mi. Mauris non turpis tempus libero consequat ultrices. In at quam libero. Curabitur iaculis euismod pellentesque. Mauris in aliquet nisi. Morbi laoreet dui in erat malesuada, ut blandit sem congue. Proin sed libero quis tellus convallis volutpat. Donec interdum placerat maximus. Etiam fermentum, dolor et tristique dictum, turpis tortor facilisis augue, in interdum enim purus tempus enim. Etiam lobortis ipsum vitae laoreet consequat. Vivamus et pellentesque nunc. Praesent vitae lacus id leo dignissim sodales. Duis non eros ligula.",
+      "price": 177.0,
+      "type": "Hotels",
+      "location": "Edmonton, Alberta",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Morbi nec lacus eu odio convallis accumsan.",
+          "Sed convallis purus non turpis aliquet, et aliquam urna dictum.",
+          "Nullam non quam nec eros gravida posuere at nec tellus.",
+          "Aenean et ipsum quis ligula aliquam tincidunt."
+      ]
+  },
+  {
+      "id": 37,
+      "title": "Camp Wayfarer",
+      "img": "/img/listings/resort1.webp",
+      "description": "Praesent vitae erat volutpat orci fermentum dignissim. Mauris aliquet ac nisi vel bibendum. Sed gravida est non tortor rutrum suscipit. Sed nec metus vel felis pellentesque blandit. Praesent eu volutpat nunc. Donec ipsum mi, dapibus vitae pulvinar non, convallis sit amet purus. Vivamus posuere eleifend mi eget tristique. Donec pulvinar libero sagittis enim condimentum sollicitudin. Pellentesque accumsan nunc quam, suscipit posuere turpis ultricies vitae. Donec vel tellus vitae elit mattis bibendum eu tristique velit.",
+      "price": 122.0,
+      "type": "Bed and Breakfast",
+      "location": "St. John's, Newfoundland and Labrador",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Aenean sodales ex eu sodales efficitur.",
+          "Phasellus mattis est quis diam mollis rhoncus.",
+          "In non erat sagittis, imperdiet erat nec, gravida felis."
+      ]
+  },
+  {
+      "id": 38,
+      "title": "Villa Swag",
+      "img": "/img/listings/resort2.webp",
+      "description": "Aliquam a urna dolor. Nulla vel quam tempus, feugiat augue non, porta metus. Vestibulum malesuada sem ut odio tempor laoreet. Vivamus laoreet porttitor mattis. Aenean iaculis lacus turpis, ornare congue neque varius id. Duis pretium mauris enim, suscipit pulvinar velit imperdiet ut. Phasellus ornare orci felis, eu pretium lacus ornare sit amet. Mauris efficitur ut nisl vel pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id gravida risus, quis fermentum odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed quis nibh nulla. Vivamus scelerisque malesuada neque, eget vestibulum mi euismod vitae. Suspendisse ex risus, semper ut facilisis eu, hendrerit sed risus. Ut bibendum augue urna, vel tempor leo suscipit vel.",
+      "price": 226.0,
+      "type": "House",
+      "location": "Winnipeg, Manitoba",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Phasellus tristique lorem ut enim rutrum congue.",
+          "Phasellus vulputate dui congue leo sollicitudin auctor.",
+          "Duis euismod quam pretium volutpat venenatis."
+      ]
+  },
+  {
+      "id": 39,
+      "title": "Camp Cyclone",
+      "img": "/img/listings/resort3.webp",
+      "description": "Nam justo ex, bibendum sit amet elit sed, auctor eleifend risus. Vivamus auctor nisi non ante convallis cursus. Fusce ultrices elementum facilisis. Nullam eros eros, sagittis id tempus a, cursus vitae neque. Aenean nec orci leo. Nullam imperdiet, tortor eu cursus malesuada, arcu lorem auctor nulla, at sagittis tellus metus sed mauris. Sed ut gravida ligula. Maecenas ullamcorper purus ac lorem mollis, tincidunt ornare dolor tincidunt. Nam condimentum dui sed accumsan bibendum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque ut risus non ipsum iaculis faucibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque malesuada lectus odio, eu mattis ligula gravida sed. Curabitur fringilla accumsan lacinia. Integer fermentum mauris nisl, vitae luctus purus mattis sed.",
+      "price": 81.0,
+      "type": "House",
+      "location": "Edmonton, Alberta",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Curabitur vitae nisl ut libero mattis lacinia eget vitae mi.",
+          "Phasellus ullamcorper neque id ligula semper, eu aliquam libero posuere.",
+          "Suspendisse sed neque aliquam purus tincidunt ullamcorper vitae quis odio."
+      ]
+  },
+  {
+      "id": 40,
+      "title": "Beach Conventional",
+      "img": "/img/listings/resort4.webp",
+      "description": "Cras eget risus ut quam vehicula interdum at sit amet felis. Aliquam faucibus purus nec mollis ultricies. Sed tristique purus nec justo ullamcorper laoreet. Duis quis gravida purus, non venenatis dui. Nullam nibh erat, dictum ut pretium sit amet, cursus id justo. Morbi id diam id leo rutrum venenatis non vehicula ligula. In tempus sagittis faucibus. Curabitur felis neque, maximus et est congue, dignissim vulputate erat. Aenean ut pellentesque nunc. Ut tristique nisl quis neque viverra gravida. Duis rutrum facilisis finibus. Nulla vulputate elementum ipsum nec luctus. Curabitur consequat blandit felis, in tincidunt est ornare ut.",
+      "price": 116.0,
+      "type": "Condos",
+      "location": "Regina, Saskatchewan",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Nullam varius nunc a porttitor lobortis.",
+          "Sed sodales nisl et hendrerit consequat.",
+          "Nullam ut ligula nec purus ultricies euismod nec vel nulla."
+      ]
+  },
+  {
+      "id": 41,
+      "title": "Beach Scale",
+      "img": "/img/listings/resort1.webp",
+      "description": "Maecenas nibh urna, venenatis efficitur ipsum venenatis, dignissim auctor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac pulvinar magna. Vestibulum orci mauris, convallis sed ipsum et, sodales malesuada mauris. Duis venenatis auctor odio venenatis vulputate. Sed aliquam ante urna, vitae eleifend tellus dictum malesuada. Mauris urna arcu, commodo ut ultrices eget, commodo nec libero. Pellentesque nibh est, scelerisque placerat magna quis, aliquam venenatis augue.",
+      "price": 95.0,
+      "type": "House",
+      "location": "Victoria, British Columbia",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Donec laoreet diam eget enim fringilla, in eleifend mi feugiat.",
+          "Sed sit amet dui efficitur, posuere eros vel, auctor dolor.",
+          "Nunc bibendum sem sit amet metus vehicula, et sagittis nunc varius."
+      ]
+  },
+  {
+      "id": 42,
+      "title": "Beach Array",
+      "img": "/img/listings/resort2.webp",
+      "description": "Aenean ornare elit id mi porta, vel tempor erat ullamcorper. Praesent maximus pellentesque sagittis. Integer porta eget mauris nec tincidunt. Aenean finibus urna ac tellus convallis, a suscipit tortor placerat. Pellentesque vel hendrerit lacus, sit amet elementum sapien. Etiam vel tincidunt libero, at volutpat lacus. Etiam elementum metus quis diam semper, at fermentum est tempus. Maecenas cursus condimentum hendrerit.",
+      "price": 194.0,
+      "type": "Motels",
+      "location": "Regina, Saskatchewan",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Suspendisse bibendum elit tempus, tincidunt ligula vel, cursus nisi.",
+          "Cras dignissim velit eget placerat vestibulum.",
+          "Fusce vulputate libero tempus justo finibus elementum."
+      ]
+  },
+  {
+      "id": 43,
+      "title": "Vacation Wear",
+      "img": "/img/listings/resort3.webp",
+      "description": "Donec augue purus, congue nec tincidunt dapibus, aliquam hendrerit magna. Etiam molestie molestie elit, sit amet tincidunt ligula rhoncus vitae. Donec blandit lacinia nunc, vel pellentesque ipsum cursus non. Vestibulum ac lacus id erat pellentesque dignissim. Curabitur scelerisque commodo auctor. Maecenas ultricies purus eget dui varius, id tempus metus suscipit. Nullam eu consectetur tortor. Nulla velit elit, volutpat at gravida at, dignissim ut dui. Sed sodales urna eget leo venenatis dictum. Fusce semper, ipsum at volutpat dignissim, mauris ligula hendrerit risus, id dignissim sem ex non diam. In tempus egestas pharetra. Nulla facilisi. Donec fermentum sagittis odio vitae tincidunt.",
+      "price": 123.0,
+      "type": "Apartments",
+      "location": "Winnipeg, Manitoba",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Donec nec arcu aliquet, pellentesque leo non, iaculis purus.",
+          "Phasellus luctus leo vitae vulputate auctor.",
+          "Proin sodales ipsum non dui vestibulum dapibus."
+      ]
+  },
+  {
+      "id": 44,
+      "title": "Villa Jet",
+      "img": "/img/listings/resort4.webp",
+      "description": "Ut ornare massa odio, et sodales sem dictum sodales. Sed at molestie sem, non viverra ante. In nulla ligula, aliquam a risus quis, iaculis aliquet augue. Proin non vehicula erat. Fusce vitae dictum nibh, id rutrum lacus. Mauris non ante at eros venenatis pellentesque. Pellentesque varius vestibulum libero vel rhoncus. Pellentesque consectetur urna ac quam feugiat condimentum. Maecenas ex nisi, dictum ut ex non, rutrum finibus dui. Nam nec venenatis metus. Vestibulum cursus est eget nibh feugiat, mattis gravida lectus sodales.",
+      "price": 130.0,
+      "type": "Resorts",
+      "location": "Charlottetown, Prince Edward Island",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Morbi laoreet est a scelerisque auctor.",
+          "Fusce ac metus eget nunc vestibulum porta sit amet quis sapien.",
+          "Quisque ut nunc sit amet nisi iaculis molestie eget et ex.",
+          "Etiam posuere ex eu posuere semper."
+      ]
+  },
+  {
+      "id": 45,
+      "title": "Sea Ample",
+      "img": "/img/listings/resort1.webp",
+      "description": "Nam sit amet maximus velit. Nulla iaculis quam eu egestas blandit. Nullam non sapien tortor. Praesent nec risus in magna vestibulum volutpat. Aliquam erat volutpat. In quis dapibus ipsum, id vehicula lectus. Phasellus ante massa, bibendum in neque et, semper pretium enim. Aenean facilisis suscipit euismod. Duis luctus, massa vel viverra porttitor, elit dolor accumsan erat, non mollis tellus libero ultricies lorem. Mauris ligula sapien, tempus eu mauris sit amet, luctus cursus lacus. In fringilla tortor sapien, eu dapibus ante lobortis in. Aliquam rhoncus, lectus vel vulputate dignissim, lacus massa fringilla purus, sed pellentesque justo nulla eget sapien. Nunc pretium nibh sapien. Vestibulum efficitur, mi et ultricies viverra, sapien tortor facilisis ante, ut tempus nisi ligula non ligula. Pellentesque vehicula ipsum ut urna molestie bibendum consectetur a mi. Pellentesque dolor ligula, viverra non semper eu, mollis at purus.",
+      "price": 205.0,
+      "type": "House",
+      "location": "Toronto, Ontario",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Etiam semper dolor eget tortor interdum cursus.",
+          "Sed auctor nisl a vulputate lobortis.",
+          "Fusce lobortis felis eu sem porta ultricies.",
+          "Duis non dui sed diam imperdiet semper."
+      ]
+  },
+  {
+      "id": 46,
+      "title": "Plane Gravity",
+      "img": "/img/listings/resort2.webp",
+      "description": "Morbi rhoncus lacinia semper. Mauris lacinia nunc nec lorem placerat rutrum eget nec tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum erat elit, pharetra tincidunt turpis pulvinar vitae. Praesent nulla justo, pellentesque facilisis leo sit amet, commodo convallis velit. Phasellus cursus purus id orci porttitor, vel ornare elit ultricies. Nulla tempus aliquam urna a scelerisque. Fusce mi purus, auctor sit amet risus a, mattis varius urna. Cras hendrerit lacus ac consequat tincidunt.",
+      "price": 214.0,
+      "type": "Hotels",
+      "location": "Edmonton, Alberta",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Aliquam ullamcorper turpis vitae eros fermentum scelerisque id eget dolor.",
+          "Curabitur eleifend dui vel arcu vulputate fermentum at non ex.",
+          "Maecenas ac quam a purus iaculis condimentum.",
+          "Donec dictum sem at enim tempus viverra."
+      ]
+  },
+  {
+      "id": 47,
+      "title": "Vacation Delicacy",
+      "img": "/img/listings/resort3.webp",
+      "description": "Phasellus sit amet molestie velit. Donec in risus ornare, luctus magna quis, vehicula dolor. Duis ornare sit amet est a rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent vitae accumsan ante, non dictum justo. Nullam at mollis dui. Vestibulum venenatis non ipsum sed pharetra. Quisque imperdiet purus mauris, in fringilla ligula tincidunt at. Vivamus dui risus, viverra id commodo id, pharetra vitae purus. Nulla eleifend luctus sem, vitae ultrices elit iaculis quis. Mauris a orci vel tortor posuere finibus vitae nec enim. Nam hendrerit ante eros, nec pretium libero porttitor vitae. Duis maximus scelerisque turpis, eget ultricies ex sodales ac.",
+      "price": 91.0,
+      "type": "Resorts",
+      "location": "Fredericton, New Brunswick",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Duis tempor leo iaculis mi egestas, sed lobortis orci aliquet.",
+          "Nulla consequat nibh vel posuere posuere.",
+          "Nam id leo ac erat viverra interdum cursus vel nibh.",
+          "Morbi interdum mi non purus condimentum rhoncus.",
+          "Maecenas sit amet enim id nibh rutrum consequat."
+      ]
+  },
+  {
+      "id": 48,
+      "title": "Villa Evermore",
+      "img": "/img/listings/resort4.webp",
+      "description": "Nullam suscipit arcu sed volutpat tincidunt. Cras erat urna, tempor ac scelerisque a, venenatis ac nulla. Quisque interdum aliquet lobortis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a ex eu purus accumsan tristique. Nullam lacinia ipsum ac nisi fermentum, pulvinar consequat turpis imperdiet. Etiam tellus dolor, porttitor quis libero nec, convallis semper arcu. Nunc tincidunt sollicitudin nisi, eu accumsan dui egestas ut. Aliquam vel condimentum turpis, lobortis tristique massa. Vivamus at eleifend diam, vel dictum augue. Nulla bibendum purus et lobortis mattis. In hac habitasse platea dictumst. Phasellus arcu mauris, euismod sed vestibulum ut, viverra dictum odio. Vivamus pharetra leo non bibendum posuere.",
+      "price": 143.0,
+      "type": "Motels",
+      "location": "Regina, Saskatchewan",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Nunc at magna sed ligula gravida accumsan a et justo.",
+          "Etiam ac sem id mi ultricies feugiat nec quis neque.",
+          "Praesent vitae nisi id elit fringilla convallis quis vitae odio.",
+          "Maecenas consequat lorem at sem interdum, sit amet placerat sapien commodo.",
+          "Phasellus vehicula justo quis blandit viverra."
+      ]
+  },
+  {
+      "id": 49,
+      "title": "Villa Calibre",
+      "img": "/img/listings/resort1.webp",
+      "description": "Donec id risus vitae justo vestibulum iaculis vel quis metus. Nunc maximus consequat magna, quis faucibus odio tempus quis. Nullam consectetur, urna vel tempor viverra, turpis justo volutpat nunc, ac ornare ante turpis quis ante. Fusce vel lacinia risus, nec pulvinar enim. Fusce porta urna id elementum mattis. Integer finibus ligula sit amet neque luctus maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam sed turpis vulputate, convallis turpis nec, malesuada augue.",
+      "price": 123.0,
+      "type": "Bed and Breakfast",
+      "location": "Victoria, British Columbia",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Duis lacinia massa eu metus gravida auctor.",
+          "Phasellus vel ipsum ut orci vestibulum ultrices.",
+          "Suspendisse nec ex ullamcorper, maximus felis eu, molestie tellus.",
+          "In ac dolor quis augue vulputate efficitur vitae quis sem.",
+          "Donec consequat velit eu urna eleifend lacinia."
+      ]
+  },
+  {
+      "id": 50,
+      "title": "Vacation Collusion",
+      "img": "/img/listings/resort2.webp",
+      "description": "Mauris vestibulum viverra ex eu euismod. Curabitur a ante quis nunc facilisis tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus eu nulla lorem. Maecenas finibus nulla finibus, pharetra tellus nec, fermentum libero. Vestibulum quis gravida tortor. In interdum maximus lectus, ut sollicitudin ipsum pretium sit amet. Ut dignissim a lacus sit amet pharetra. Nullam sed euismod nibh, a efficitur arcu.",
+      "price": 254.0,
+      "type": "Bed and Breakfast",
+      "location": "Edmonton, Alberta",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Etiam sed quam eu metus condimentum lobortis in eleifend purus.",
+          "Mauris interdum velit quis rhoncus dapibus.",
+          "Integer consequat mi vitae mauris eleifend, ac interdum metus rutrum.",
+          "Maecenas vitae neque mollis, mollis urna at, convallis sem.",
+          "Fusce non massa vitae quam vehicula facilisis."
+      ]
+  },
+  {
+      "id": 51,
+      "title": "Camp DivineClick to check domain availability.",
+      "img": "/img/listings/resort3.webp",
+      "description": "Duis tempor vestibulum nulla, non finibus urna varius et. Morbi posuere ullamcorper risus, vitae tristique ipsum lacinia at. Nam diam odio, feugiat elementum feugiat in, bibendum at est. Sed condimentum ligula eu metus mattis, ultrices interdum tellus tempus. Aliquam sed metus et ante feugiat dignissim. Integer id pulvinar nibh, id bibendum erat. Mauris nec volutpat justo. In semper quam enim, a feugiat mauris facilisis ut. Fusce interdum eros hendrerit posuere tempor. Aliquam condimentum est nec arcu efficitur, at ullamcorper erat porttitor. Fusce imperdiet sem ut lorem consequat pellentesque. Praesent nisi elit, commodo luctus laoreet et, sollicitudin in dui. Aliquam ultrices risus a urna ultricies, a tempus magna pharetra.",
+      "price": 66.0,
+      "type": "Resorts",
+      "location": "St. John's, Newfoundland and Labrador",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": false,
+          "Breakfast Included": true,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Maecenas porta enim et velit aliquet, ac bibendum lorem luctus.",
+          "Mauris accumsan arcu egestas nunc efficitur eleifend.",
+          "Sed varius arcu ut pellentesque pretium.",
+          "Sed iaculis felis vel ante ultricies sodales.",
+          "Nullam vitae orci maximus, porta ex et, pulvinar orci."
+      ]
+  },
+  {
+      "id": 52,
+      "title": "Beach Tinker",
+      "img": "/img/listings/resort4.webp",
+      "description": "Nullam tempus viverra velit, eget volutpat nisl porttitor quis. Phasellus vel ultrices libero, at vestibulum lacus. Nulla non arcu ornare, posuere sapien ac, euismod nibh. Praesent in aliquam lectus, quis aliquet nisl. Integer varius risus in nisi mattis blandit ut a tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut efficitur varius metus, quis placerat elit elementum eget. Pellentesque lorem dolor, pellentesque in arcu ultrices, faucibus scelerisque arcu. Nullam non vulputate orci. Donec lacinia, massa ac porttitor viverra, dui lectus feugiat libero, quis facilisis ipsum purus quis ante. In hac habitasse platea dictumst.",
+      "price": 51.0,
+      "type": "Bed and Breakfast",
+      "location": "Winnipeg, Manitoba",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Integer aliquam urna at nunc iaculis, ut tincidunt diam ullamcorper.",
+          "Quisque interdum sapien vel massa consectetur tempor.",
+          "Cras sagittis sem imperdiet hendrerit aliquet.",
+          "Maecenas vel tortor vel purus maximus tempor.",
+          "Integer sit amet odio at sapien dictum dictum.",
+          "Etiam mattis magna aliquam sapien pellentesque pulvinar."
+      ]
+  },
+  {
+      "id": 53,
+      "title": "Plane Parade",
+      "img": "/img/listings/resort1.webp",
+      "description": "Ut quis interdum nulla. Duis dignissim ultricies nisi, et mattis dui. Quisque mattis velit quam, et laoreet turpis ullamcorper id. Nulla venenatis urna sed orci commodo, id auctor orci venenatis. Quisque fringilla metus nulla, sed viverra lorem tincidunt ut. Integer porta purus nec lacus maximus, sed luctus lorem hendrerit. Donec egestas, orci quis laoreet porta, urna lectus hendrerit dolor, eget tincidunt ante justo eu tortor. Donec convallis felis ut metus eleifend porttitor. Aliquam lectus nulla, rhoncus in elit non, imperdiet sollicitudin nisi. Fusce eu turpis enim. Fusce dapibus blandit diam, vitae accumsan mauris euismod elementum. Praesent eget neque at ligula porta pretium. Vivamus nec dignissim sapien. In eget consectetur mi. Etiam non urna nec magna efficitur fermentum. Etiam eget nunc magna.",
+      "price": 261.0,
+      "type": "Apartments",
+      "location": "Quebec City, Quebec",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": true,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Cras a metus consequat lectus pulvinar mollis.",
+          "Aliquam at sapien sed enim suscipit lobortis a a dolor.",
+          "Fusce id est non magna porta bibendum et eu purus.",
+          "Donec imperdiet felis nec imperdiet lobortis.",
+          "Nullam in leo sit amet ligula feugiat aliquet."
+      ]
+  },
+  {
+      "id": 54,
+      "title": "Camp Inspire",
+      "img": "/img/listings/resort2.webp",
+      "description": "Integer mollis a nisl vel lacinia. In ut sapien eu leo semper mollis a ac nunc. Duis et ex sed leo rhoncus ultrices vitae convallis quam. Morbi placerat tristique elit ut laoreet. Quisque sit amet sapien sed justo congue sodales. Ut in turpis non metus feugiat gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis mi sit amet metus euismod, in dictum justo laoreet. Vivamus condimentum tincidunt purus, non viverra dolor rhoncus eu. Vestibulum finibus nisl a egestas ullamcorper.",
+      "price": 83.0,
+      "type": "Resorts",
+      "location": "Charlottetown, Prince Edward Island",
+      "bestseller": false,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": false,
+          "WiFi included": false,
+          "Parking": true,
+          "Airport Transfers": true
+      },
+      "House Rules": [
+          "Phasellus volutpat justo sed dui viverra, non ultrices diam posuere.",
+          "Maecenas sed erat ac turpis eleifend porttitor.",
+          "Curabitur porta odio eu condimentum ultricies.",
+          "In aliquet mauris at auctor consectetur.",
+          "Nulla vel urna in libero dictum tincidunt."
+      ]
+  },
+  {
+      "id": 55,
+      "title": "Vacation Bright",
+      "img": "/img/listings/resort3.webp",
+      "description": "Quisque bibendum pretium mi, nec varius eros ultrices at. Vivamus felis tortor, pellentesque ac molestie quis, rutrum id enim. Phasellus id odio eget nisl accumsan consequat vel sit amet augue. Curabitur non mauris quis sapien dictum scelerisque. Donec imperdiet fringilla magna, at finibus mi venenatis eget. Duis eu lorem condimentum, vehicula risus vel, laoreet arcu. Nam egestas eros in nisi consectetur, eget rhoncus ex sodales. In ex nisi, aliquam vel ex et, placerat tristique ex. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam vitae nibh nisi. Proin massa nibh, molestie id volutpat vitae, molestie ac justo.",
+      "price": 159.0,
+      "type": "Hotels",
+      "location": "Toronto, Ontario",
+      "bestseller": true,
+      "Amenities": {
+          "Pool": true,
+          "Breakfast Included": true,
+          "WiFi included": false,
+          "Parking": false,
+          "Airport Transfers": false
+      },
+      "House Rules": [
+          "Maecenas sollicitudin diam eget lorem tincidunt ornare ac et odio.",
+          "Curabitur vitae neque pretium, mattis nunc eget, tincidunt metus.",
+          "Curabitur quis lorem et ex laoreet lobortis sed non turpis.",
+          "Suspendisse vitae urna ac ex semper pulvinar."
+      ]
+  }
+  ],
+  "heroSlides": [
+    {
+      "id": 1,
+      "image": "/img/listings/resortBg.jpeg",
+      "title": "Your Home away from Home",
+      "caption": "Join hundreds of others who have already booked their next vacation!"
+    },
+    {
+      "id": 2,
+      "image": "/img/listings/resort1.webp",
+      "title": "Where you want, Whenever you want",
+      "caption": "We have locations all everywhere youi wish to go!."
+    },
+    {
+      "id": 3,
+      "image": "/img/listings/resort2.webp",
+      "title": "From land to sea, there will always be a place for you to be!",
+      "caption": ""
+    }
+  ],
+  "property": [
+    {
+      "title": "Apartments",
+      "image": "/img/property/apartment.jpg"
+    },
+    {
+      "title": "Resorts",
+      "image": "/img/property/resort.jpg"
+    },
+    {
+      "title": "Condos",
+      "image": "/img/property/condo.jpg"
+    },
+    {
+      "title": "Hotels",
+      "image": "/img/property/hotel.jpg"
+    },
+    {
+      "title": "Bed and Breakfast",
+      "image": "/img/property/b&b.jpg"
+    },
+    {
+      "title": "Motels",
+      "image": "/img/property/motel.jpg"
+    },
+    {
+      "title": "House",
+      "image": "/img/property/house.jpg"
+    }
+  ]
+}
