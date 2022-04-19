@@ -10,6 +10,8 @@ import PropertyDisplayList from '../components/PropertyDisplayList';
 
 
 const PropertyTypePage = ({ listings, updateListings }) => {
+    const [listingLoaded, setLoaded] = useState(false);
+    const [propertyType, setPropertyType] = useState("Hotels");
     const [searchParams] = useSearchParams()
     let pageTitle = searchParams.get('type')
 
@@ -43,12 +45,15 @@ const PropertyTypePage = ({ listings, updateListings }) => {
         let URL = `https://json-server-seneca.herokuapp.com/listings?type=${pageTitle}`
         //MAKE AN AJAX request
     
+            console.log("propertyType=" + pageTitle)
+
         fetch(URL) // GET
         .then(response=>response.json())
     
         .then(json=>{
             updateListings(json)
             console.log(listings)
+            setLoaded(true)
         })
         .catch(err=>console.log(err))
     
@@ -59,7 +64,7 @@ const PropertyTypePage = ({ listings, updateListings }) => {
             <Header />
             <main>
                 <Container>
-                    <PropertyDisplayList />
+                    <PropertyDisplayList setPropertyType={setPropertyType}/>
                     <Row>
                         <Col sm={12} md={3}>
                             <Row><div>
@@ -76,7 +81,9 @@ const PropertyTypePage = ({ listings, updateListings }) => {
                                 <Sorting sorting={sorting} passSetSorting={setSorting} />
                             </div>
                             <Row>
-                                <SearchResults listings={listings} sorting={sorting} filter={filter} updateListings={updateListings} />
+                                {(listingLoaded)?
+                                    <SearchResults listings={listings} sorting={sorting} filter={filter} updateListings={updateListings} />: "Loading..."
+                                }
                             </Row>
                         </Col>
                     </Row>

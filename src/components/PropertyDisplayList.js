@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, CardGroup } from 'react-bootstrap';
 import PropertyDisplayItem from "./PropertyDisplayItem";
 
-const ListingList = () => {
+const ListingList = (setPropertyType) => {
 
     //creating my state
     const [types, setTypes] = useState([{
@@ -29,7 +29,7 @@ const ListingList = () => {
         <section style={{ margin: "10px" }}>
             <h1>Properties</h1>
             <Container className='row flex-nowrap overflow-auto' style={{ height: '28rem' }}>
-                {types.map(type => (<PropertyDisplayItem title={type.title} image={type.image} />))}
+                {types.map(type => (<PropertyDisplayItem title={type.title} image={type.image} setPropertyType={setPropertyType}/>))}
             </Container>
         </section>
     );

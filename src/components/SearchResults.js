@@ -8,10 +8,10 @@ const SearchResults = ({listings,sorting,filter,updateListings}) => {
     useEffect(() => {
       updateListings();
       setSortedListings(listings);
-      }, [])
+    }, [])
 
     return (
-        <Container>
+      <Container>
           {sortedListings.map(listing => (<SearchResultItem id={listing.id} image={listing.img} title={listing.title} price={listing.price} type={listing.type} location={listing.location} bestseller={listing.bestseller}/>))}
       </Container>
     )
