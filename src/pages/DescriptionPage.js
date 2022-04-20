@@ -5,7 +5,17 @@ import Footer from '../components/Footer';
 import { useParams } from 'react-router-dom';
 import { Container, Row, Col, Image, Button, Badge, Stack, Accordion, ListGroup } from 'react-bootstrap';
 
+
+const ammenities_dict = {
+    "pool": "Pool",
+    "breakfast": "Breakfast Included",
+    "wifi": "WiFi included",
+    "parking": "Parking",
+    "airportTransfer": "Airport Transfers"
+}
+
 const ListingDescriptionPage = () => {
+
 
     const [listing, setListing] = useState({
         "id": 0,
@@ -16,14 +26,14 @@ const ListingDescriptionPage = () => {
         "type": "",
         "location": "",
         "bestseller": false,
-        "Amenities": {
+        "amenities": {
             "Pool": false,
             "Breakfast Included": false,
             "WiFi included": false,
             "Parking": false,
             "Airport Transfers": false
         },
-        "House Rules": []
+        "houseRules": []
     })
 
     const { id } = useParams()
@@ -37,16 +47,16 @@ const ListingDescriptionPage = () => {
 
             .then(json => {
                 setListing(json)
+                console.log()
             })
             .catch(err => console.log(err))
     }, [])
-    var HouseRules = listing["House Rules"]
-    var keyNames = Object.keys(listing.Amenities)
+    var HouseRules = listing["houseRules"]
+    var keyNames = Object.keys(listing.amenities)
     var Amenities = [];
     for (let key in keyNames) {
-        console.log()
-        if (listing.Amenities[keyNames[key]]) {
-            Amenities.push(keyNames[key])
+        if (listing.amenities[key]) {
+            Amenities.push(ammenities_dict[key])
         }
     }
     if (Amenities.length === 0) {
