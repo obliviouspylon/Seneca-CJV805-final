@@ -27,11 +27,11 @@ const ListingDescriptionPage = () => {
         "location": "",
         "bestseller": false,
         "amenities": {
-            "Pool": false,
-            "Breakfast Included": false,
-            "WiFi included": false,
-            "Parking": false,
-            "Airport Transfers": false
+            "pool": false,
+            "breakfast": false,
+            "wifi": false,
+            "parking": false,
+            "airportTransfer": false
         },
         "houseRules": []
     })
