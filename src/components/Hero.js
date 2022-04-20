@@ -31,7 +31,7 @@ const Hero = () => {
 
   useEffect(() => {
     // const URL = 'http://localhost:5000/heroSlides'
-    let URL = 'https://json-server-seneca.herokuapp.com/heroSlides'
+    let URL = 'https://seneca-cjv805-api.herokuapp.com/heroSlides'
     //MAKE AN AJAX request
 
     fetch(URL)

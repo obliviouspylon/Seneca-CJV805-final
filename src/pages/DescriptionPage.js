@@ -29,7 +29,7 @@ const ListingDescriptionPage = () => {
     const { id } = useParams()
     useEffect(() => {
         // const URL = `http://localhost:5000/listings/${id}`
-        let URL = `https://json-server-seneca.herokuapp.com/listings/${id}`
+        let URL = `https://seneca-cjv805-api.herokuapp.com/listings/${id}`
         //MAKE AN AJAX request
 
         fetch(URL) // GET

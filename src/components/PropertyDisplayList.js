@@ -13,7 +13,7 @@ const ListingList = (setPropertyType) => {
 
     useEffect(() => {
         // const URL = 'http://localhost:5000/property'
-        let URL = 'https://json-server-seneca.herokuapp.com/property'
+        let URL = 'https://seneca-cjv805-api.herokuapp.com/property'
         //MAKE AN AJAX request
 
         fetch(URL)
