@@ -45,7 +45,7 @@ const PropertyTypePage = ({ listings, updateListings }) => {
         let URL = `https://seneca-cjv805-api.herokuapp.com/listings/listings?type=${pageTitle}`
         //MAKE AN AJAX request
     
-            console.log("propertyType=" + pageTitle)
+            // console.log("propertyType=" + pageTitle)
 
         fetch(URL) // GET
         .then(response=>response.json())

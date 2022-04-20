@@ -47,7 +47,7 @@ const ListingDescriptionPage = () => {
 
             .then(json => {
                 setListing(json)
-                console.log()
+                console.log(json)
             })
             .catch(err => console.log(err))
     }, [])

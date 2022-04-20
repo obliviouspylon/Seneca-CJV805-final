@@ -6,7 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const PropertyDisplayItem = ({ title, image , setPropertyType}) => {
 
   const handleClick = () => {
-    console.log(title);
     setPropertyType(title);
     
   }
