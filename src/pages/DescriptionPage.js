@@ -88,7 +88,7 @@ const ListingDescriptionPage = () => {
                         </Col>
                         <Col sm={12} md={4}>
                             <Row>
-                                <iframe title='Map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.9260799569643!2d-79.35193538427976!3d43.79514687911673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d31babbf5ce7%3A0x5812aa25d9fb9912!2sSeneca%20College%20Newnham%20Campus!5e0!3m2!1sen!2sca!4v1650441426841!5m2!1sen!2sca" frameBorder="0" scrolling="no" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe title='Map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.9260799569643!2d-79.35193538427976!3d43.79514687911673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d31babbf5ce7%3A0x5812aa25d9fb9912!2sSeneca%20College%20Newnham%20Campus!5e0!3m2!1sen!2sca!4v1650441426841!5m2!1sen!2sca" frameBorder="0" scrolling="no" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </Row>
                             <Row bsPrefix={"pt-2"}>
                                 <h3>{listing.location}</h3>
