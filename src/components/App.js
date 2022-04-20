@@ -50,8 +50,6 @@ const App = () => {
         .then(response => response.json())
         .then(json => {
           setListings(json)
-          console.log("2")
-          console.log(json)
         })
         .catch(err => console.log(err))
     } else {

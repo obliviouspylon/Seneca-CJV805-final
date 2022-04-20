@@ -55,8 +55,8 @@ const ListingDescriptionPage = () => {
     var keyNames = Object.keys(listing.amenities)
     var Amenities = [];
     for (let key in keyNames) {
-        if (listing.amenities[key]) {
-            Amenities.push(ammenities_dict[key])
+        if (listing.amenities[keyNames[key]]) {
+            Amenities.push(ammenities_dict[keyNames[key]])
         }
     }
     if (Amenities.length === 0) {
