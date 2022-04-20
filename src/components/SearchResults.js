@@ -10,8 +10,6 @@ const SearchResults = ({listings,sorting,filter,updateListings}) => {
       setSortedListings(listings);
     }, [])
 
-    console.log(sortedListings)
-
     return (
       <Container>
           {sortedListings.map(listing => (<SearchResultItem id={listing.id} image={listing.img} title={listing.title} price={listing.price} type={listing.type} location={listing.location} bestseller={listing.bestseller}/>))}

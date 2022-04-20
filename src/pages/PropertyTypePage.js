@@ -42,7 +42,7 @@ const PropertyTypePage = ({ listings, updateListings }) => {
 
     useEffect(()=>{
         // let URL = `http://localhost:5000/listings?type=${pageTitle}`
-        let URL = `https://seneca-cjv805-api.herokuapp.com/listings/listings?type=${pageTitle}`
+        let URL = `https://seneca-cjv805-api.herokuapp.com/listings?type=${pageTitle}`
         //MAKE AN AJAX request
     
             // console.log("propertyType=" + pageTitle)
@@ -52,7 +52,6 @@ const PropertyTypePage = ({ listings, updateListings }) => {
     
         .then(json=>{
             updateListings(json)
-            console.log(listings)
             setLoaded(true)
         })
         .catch(err=>console.log(err))
