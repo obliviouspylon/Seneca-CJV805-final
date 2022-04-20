@@ -43,14 +43,15 @@ const App = () => {
   function updateListings(json = null) {
     if (json === null) {
       // let URL = 'http://localhost:5000/listings'
-      let URL = 'https://json-server-seneca.herokuapp.com/listings'
+      let URL = 'https://seneca-cjv805-api.herokuapp.com/listings/all'
       
       //MAKE AN AJAX request
-      fetch(URL)
+      fetch(URL, {mode: 'cors'})
         .then(response => response.json())
-
         .then(json => {
           setListings(json)
+          console.log("2")
+          console.log(json)
         })
         .catch(err => console.log(err))
     } else {
