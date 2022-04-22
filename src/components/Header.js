@@ -21,9 +21,9 @@ const Header = () => {
     };
 
     function onLogOut() {
-        removeCookie("email", {path: "/"});
-        removeCookie("firstName", {path: "/"});
-        removeCookie("lastName",  {path: "/"});
+        removeCookie("email", { path: "/" });
+        removeCookie("firstName", { path: "/" });
+        removeCookie("lastName", { path: "/" });
         navigate(`/login`);
     };
 
@@ -52,7 +52,11 @@ const Header = () => {
                             <Button className='submitButton' variant="primary" onClick={onClick}>Search</Button>
                         </NavDropdown>
                         <NavDropdown title="Account">
-                            <NavDropdown.Item><Link className='nav-sublink' to="/registration">Registration</Link></NavDropdown.Item>
+                            {
+                                (cookies.email) ?
+                                <NavDropdown.Item><Link className='nav-sublink' to="/dashboard">Dashboard</Link></NavDropdown.Item> :
+                                    <NavDropdown.Item><Link className='nav-sublink' to="/registration">Registration</Link></NavDropdown.Item>
+                            }
                             {
                                 (cookies.email) ?
                                     <NavDropdown.Item onClick={onLogOut}>Log Out</NavDropdown.Item> :
