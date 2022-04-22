@@ -66,7 +66,7 @@ const RegistrationForm = () => {
                 }
                 else
                 {
-                    throw `${response.json().then((data)=>{return data.message})}`;
+                    response.json().then((data)=>{throw data.message});
                 }
             }).then(json => {
                     setSuccessful(false)
