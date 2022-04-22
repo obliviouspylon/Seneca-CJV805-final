@@ -9,7 +9,7 @@ const Header = () => {
     // https://stackoverflow.com/questions/56729279/redirect-to-another-component-after-submit-in-react
     const [Search, setSearch] = useState("");
     const searchChange = (e) => setSearch(e.target.value);
-    const [cookies, setCookie] = useCookies(['user']);
+    const [cookies, setCookie, removeCookie] = useCookies(['user']);
 
     let navigate = useNavigate();
     function onClick() {
@@ -21,9 +21,9 @@ const Header = () => {
     };
 
     function onLogOut() {
-        setCookie("email", null, {path: "/"});
-        setCookie("firstName", null, {path: "/"});
-        setCookie("lastName", null, {path: "/"});
+        removeCookie("email", {path: "/"});
+        removeCookie("firstName", {path: "/"});
+        removeCookie("lastName",  {path: "/"});
         navigate(`/login`);
     };
 
