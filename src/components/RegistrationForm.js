@@ -72,6 +72,7 @@ const RegistrationForm = () => {
 
                 console.log("Redirecting to Login")
                 navigate(`/login`);
+                return;
             }).catch(err => {
                 let message = ''
                 err.json().then((data) => {
