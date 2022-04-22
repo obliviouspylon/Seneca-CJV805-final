@@ -60,8 +60,17 @@ const RegistrationForm = () => {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(user)
-            }).then(response => response.json())
-                .then(json => {
+            }).then((response) => {
+                if (response.status == 200) {   // *** This can be just `if (response.ok) {`
+                    return response.json();
+                }
+                else
+                {
+                    setAdmin(false)
+                    setadminMessage(response.json.message)
+                    throw `error with status ${response.status}`;
+                }
+            }).then(json => {
                     setSuccessful(false)
                     
                     sleep(3000).then(()=>{
