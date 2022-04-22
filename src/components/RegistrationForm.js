@@ -67,7 +67,6 @@ const RegistrationForm = () => {
                 else
                 {
                     setAdmin(false)
-                    setadminMessage(response.json().message)
                     throw `${response.message}`;
                 }
             }).then(json => {
