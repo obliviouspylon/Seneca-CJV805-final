@@ -44,7 +44,7 @@ const RegistrationForm = () => {
             setEmailvalid(true)
             setRequire(true)
 
-            let URL = `https://seneca-cjv805-api.herokuapp.com/register`
+            let URL = `https://seneca-cjv805-api.herokuapp.com/user/register`
             let user = {
                 "firstName": fname,
                 "lastName": lname,

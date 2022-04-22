@@ -33,7 +33,7 @@ const LoginForm = () => {
             setEmailvalid(true)
             setRequire(true)
 
-            let URL = `https://seneca-cjv805-api.herokuapp.com/login`
+            let URL = `https://seneca-cjv805-api.herokuapp.com/user/login`
             let user = {
                 "email": email,
                 "password": password
