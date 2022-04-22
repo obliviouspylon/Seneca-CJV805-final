@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Row, Col, Button, Form } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Cookies from 'universal-cookie';
 
 const RegistrationForm = () => {
     const [email, setEmail] = useState("")
@@ -73,6 +74,13 @@ const RegistrationForm = () => {
                 )
         }
     };
+
+    useEffect(() => {
+        //Check for login
+        if (document.cookie.email) {
+            navigate(`/dashboard`);
+        }
+    }, [])
 
     return (
         <div className="container">

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Row, Col, Button, Form } from 'react-bootstrap';
 import { Link,useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Cookies from 'universal-cookie';
 
 const LoginForm = () => {
     const [email, setEmail] = useState("")
@@ -12,6 +13,7 @@ const LoginForm = () => {
 
     const emailChange = (e) => setEmail(e.target.value);
     const passwordChange = (e) => setPassword(e.target.value);
+    const cookies = new Cookies(req.headers.cookie);
 
     const navigate = useNavigate();
 
@@ -50,11 +52,10 @@ const LoginForm = () => {
                 .then(json => {
                     setSuccessful(false)
                     console.log(json)
-                    document.cookie = {
-                        "firstName": json.fname,
-                        "lastName": json.lname,
-                        "email":json.email
-                    }
+                    cookies.set('firstName', json.fname, { path: '/' });
+                    cookies.set('lastName', json.lname, { path: '/' });
+                    cookies.set('email', json.email, { path: '/' });
+
                     console.log(document.cookie)
                     navigate(`/dashboard`);
                 })
