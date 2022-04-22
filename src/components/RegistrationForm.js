@@ -66,10 +66,7 @@ const RegistrationForm = () => {
                 }
                 else
                 {
-                    console.log(response)
-                    console.log(response.json())
-                    console.log(response.json().message)
-                    throw `${response.message}`;
+                    throw `${response.json()}`;
                 }
             }).then(json => {
                     setSuccessful(false)
@@ -80,8 +77,8 @@ const RegistrationForm = () => {
                 })
                 .catch(err => {
                     setAdmin(false)
-                    setadminMessage(err)
-                    console.log(err)
+                    setadminMessage(err.message)
+                    console.log(err.message)
                 }
                 )
         }
