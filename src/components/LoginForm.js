@@ -49,10 +49,11 @@ const LoginForm = () => {
                 .then(response => response.json())
                 .then(json => {
                     setSuccessful(false)
+                    console.log(json)
                     document.cookie = {
-                        "firstName": json.body.fname,
-                        "lastName": json.body.lname,
-                        "email":json.body.email
+                        "firstName": json.fname,
+                        "lastName": json.lname,
+                        "email":json.email
                     }
                     console.log(document.cookie)
                     navigate(`/dashboard`);
