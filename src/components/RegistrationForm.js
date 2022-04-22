@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Row, Col, Button, Form } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cookies from 'universal-cookie';
+import { useCookies } from 'react-cookie';
 
 const RegistrationForm = () => {
     const [email, setEmail] = useState("")
@@ -14,6 +14,7 @@ const RegistrationForm = () => {
     const [successful, setSuccessful] = useState(true)
     const [admin, setAdmin] = useState(true)
     const [adminMessage, setadminMessage] = useState(true)
+    const [cookies, setCookie] = useCookies(['user']);
 
     const emailChange = (e) => setEmail(e.target.value);
     const fnameChange = (e) => setFname(e.target.value);

@@ -3,13 +3,14 @@ import { Link, useNavigate } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Nav, NavDropdown, Image, Button, Form } from 'react-bootstrap';
-import Cookies from 'universal-cookie';
+import { useCookies } from 'react-cookie';
 
 const Header = () => {
     // https://stackoverflow.com/questions/56729279/redirect-to-another-component-after-submit-in-react
     const [Search, setSearch] = useState("");
     const searchChange = (e) => setSearch(e.target.value);
-    const cookies = new Cookies(req.headers.cookie);
+    const [cookies, setCookie] = useCookies(['user']);
+
     let navigate = useNavigate();
     function onClick() {
         if (Search.length > 0) {
@@ -20,9 +21,9 @@ const Header = () => {
     };
 
     function onLogOut() {
-        cookies.remove("email");
-        cookies.remove("firstName");
-        cookies.remove("lastName");
+        setCookie("email", null, {path: "/"});
+        setCookie("firstName", null, {path: "/"});
+        setCookie("lastName", null, {path: "/"});
         navigate(`/login`);
     };
 
@@ -53,7 +54,7 @@ const Header = () => {
                         <NavDropdown title="Account">
                             <NavDropdown.Item><Link className='nav-sublink' to="/registration">Registration</Link></NavDropdown.Item>
                             {
-                                (cookies.get('email') === undefined) ?
+                                (cookies.email) ?
                                     <NavDropdown.Item onClick={onLogOut}>Log Out</NavDropdown.Item> :
                                     <NavDropdown.Item><Link className='nav-sublink' to="/login">Login</Link></NavDropdown.Item>
                             }

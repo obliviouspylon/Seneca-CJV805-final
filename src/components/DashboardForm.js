@@ -2,19 +2,20 @@ import React, { useState, useEffect } from 'react'
 import { Form } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cookies from 'universal-cookie';
+import { useCookies } from 'react-cookie';
 
 const DashBoardForm = () => {
 
-    const cookies = new Cookies(req.headers.cookie);
-    const [email, setEmail] = useState(cookies.get('email'))
-    const [fname, setFname] = useState(cookies.get('firstName'))
-    const [lname, setLname] = useState(cookies.get('lastName'))
+    const [cookies, setCookie] = useCookies(['user']);
+    const [email, setEmail] = useState(cookies.email)
+    const [fname, setFname] = useState(cookies.firstName)
+    const [lname, setLname] = useState(cookies.lastName)
     const navigate = useNavigate();
+
 
     useEffect(() => {
         //Check for login
-        if (cookies.get('email') === undefined) {
+        if (email === undefined) {
             navigate(`/login`);
         }
     }, [])
