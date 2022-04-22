@@ -69,7 +69,7 @@ const RegistrationForm = () => {
                     setAdmin(false)
                     setadminMessage(response.json.message)
                     console.log(response)
-                    throw `error with status ${response.status}`;
+                    throw `${response.message}`;
                 }
             }).then(json => {
                     setSuccessful(false)
