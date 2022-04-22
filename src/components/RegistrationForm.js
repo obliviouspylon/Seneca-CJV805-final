@@ -65,11 +65,7 @@ const RegistrationForm = () => {
                     return response.json();
                 }
                 else {
-                    response.json().then((data) => {
-                        throw data.message;
-                    }).catch((err) => {
-                        throw err
-                    });
+                    throw response;
                 }
             }).then(json => {
                 setSuccessful(false)
@@ -79,9 +75,14 @@ const RegistrationForm = () => {
                 })
             })
                 .catch(err => {
-                    setAdmin(false)
-                    setadminMessage(err)
-                    console.log(err)
+                    let message = ''
+                    err.json().then((data) => {
+                        setAdmin(false)
+                        setadminMessage(data.message)
+                        console.log(data.message)
+                    }).catch((err) => {
+                        throw err
+                    });
                 }
                 )
         }
