@@ -66,6 +66,9 @@ const RegistrationForm = () => {
                 }
                 else
                 {
+                    console.log(response)
+                    console.log(response.json())
+                    console.log(response.statusText)
                     throw `${response.statusText}`;
                 }
             }).then(json => {
