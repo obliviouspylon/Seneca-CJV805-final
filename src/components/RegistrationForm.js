@@ -70,21 +70,20 @@ const RegistrationForm = () => {
             }).then(json => {
                 setSuccessful(false)
 
-                sleep(3000).then(() => {
+                sleep(5000).then(() => {
                     navigate(`/login`);
                 })
-            })
-                .catch(err => {
-                    let message = ''
-                    err.json().then((data) => {
-                        setAdmin(false)
-                        setadminMessage(data.message)
-                        console.log(data.message)
-                    }).catch((err) => {
-                        throw err
-                    });
-                }
-                )
+            }).catch(err => {
+                let message = ''
+                err.json().then((data) => {
+                    setAdmin(false)
+                    setadminMessage(data.message)
+                    console.log(data.message)
+                }).catch((err) => {
+                    throw err
+                });
+            }
+            )
         }
     };
 
