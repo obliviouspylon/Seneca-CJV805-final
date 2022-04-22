@@ -64,17 +64,20 @@ const RegistrationForm = () => {
                 if (response.status == 200) {   // *** This can be just `if (response.ok) {`
                     return response.json();
                 }
-                else
-                {
-                    response.json().then((data)=>{throw data.message});
+                else {
+                    response.json().then((data) => {
+                        throw data.message;
+                    }).catch((err) => {
+                        throw err
+                    });
                 }
             }).then(json => {
-                    setSuccessful(false)
-                    
-                    sleep(3000).then(()=>{
-                        navigate(`/login`);
-                    })
+                setSuccessful(false)
+
+                sleep(3000).then(() => {
+                    navigate(`/login`);
                 })
+            })
                 .catch(err => {
                     setAdmin(false)
                     setadminMessage(err)
