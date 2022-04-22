@@ -66,7 +66,7 @@ const RegistrationForm = () => {
                 }
                 else
                 {
-                    throw `${response.json()}`;
+                    throw `${response.json().then((data)=>{return data.message})}`;
                 }
             }).then(json => {
                     setSuccessful(false)
@@ -76,13 +76,9 @@ const RegistrationForm = () => {
                     })
                 })
                 .catch(err => {
-                    let message = ""
-                    err.then((json)=>{
-                        message = err.message;
-                    })
                     setAdmin(false)
-                    setadminMessage(message)
-                    console.log(message)
+                    setadminMessage(err)
+                    console.log(err)
                 }
                 )
         }
