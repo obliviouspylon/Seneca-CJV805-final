@@ -63,11 +63,11 @@ const RegistrationForm = () => {
             }).then((response) => {
                 if (response.status == 200) {   // *** This can be just `if (response.ok) {`
                     console.log("Register Successful")
-                    return response.json();
-                }
-                else {
+                }else {
                     throw response;
+                    
                 }
+                return response.json();
             }).then(json => {
                 setSuccessful(false)
 
