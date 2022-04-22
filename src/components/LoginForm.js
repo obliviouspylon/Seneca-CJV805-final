@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Row, Col, Button, Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const LoginForm = () => {
@@ -12,6 +12,8 @@ const LoginForm = () => {
 
     const emailChange = (e) => setEmail(e.target.value);
     const passwordChange = (e) => setPassword(e.target.value);
+
+    const navigate = useNavigate();
 
     function validateEmail(email) {
         let res = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
@@ -30,7 +32,37 @@ const LoginForm = () => {
         } else {
             setEmailvalid(true)
             setRequire(true)
-            setSuccessful(false)
+
+            let URL = `https://seneca-cjv805-api.herokuapp.com/login`
+            let user = {
+                "email": email,
+                "password": password
+            };
+
+            fetch(URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(user)
+            }) // GET
+                .then(response => response.json())
+                .then(json => {
+                    setSuccessful(false)
+                    document.cookie = {
+                        "firstName": json.body.fname,
+                        "lastName": json.body.lname,
+                        "email":json.body.email
+                    }
+                    console.log(document.cookie)
+                    navigate(`/dashboard`);
+                })
+                .catch(err => {
+                    console.log(err)}
+                )
+            document.cookie = {
+
+            }
         }
     };
 
@@ -63,7 +95,7 @@ const LoginForm = () => {
                 </Row>
                 <Row>
                     <p style={{ fontSize: 20, color: "red" }} hidden={require}>Please fill out all fields!</p>
-                    <p style={{ fontSize: 20, color: "green" }} hidden={successful}>Account Created Successfully!</p>
+                    <p style={{ fontSize: 20, color: "green" }} hidden={successful}>Login Successfully!</p>
                 </Row>
             </Form>
         </section>

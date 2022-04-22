@@ -1,10 +1,23 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
+import { Link, useNavigate } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, NavDropdown, Image } from 'react-bootstrap';
+import { Nav, NavDropdown, Image, Button, Form } from 'react-bootstrap';
 
 const Header = () => {
+    // https://stackoverflow.com/questions/56729279/redirect-to-another-component-after-submit-in-react
+    const [Search, setSearch] = useState("");
+
+    let navigate = useNavigate(); 
+    function onClick() {
+        if (Search.length > 0){
+            navigate(`/search?title=${Search}`);
+        } else {
+            console.log("CLICK")
+        }
+    };
+
+    const searchChange = (e) => setSearch(e.target.value);
 
     return (
 
@@ -12,8 +25,8 @@ const Header = () => {
             <Navbar variant='dark' sticky='top' expand="md" collapseOnSelect sticky-top="true">
                 <Navbar.Brand>
                     <div className='logo'>
-                    <Image src="\logo.png" rounded fluid={true} />
-                </div></Navbar.Brand>
+                        <Image src="\logo.png" rounded fluid={true} />
+                    </div></Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Nav className='nav-link'>
@@ -25,7 +38,8 @@ const Header = () => {
 
                     <Nav className='ms-auto'>
                         <NavDropdown title="Search">
-                            <input type={"text"} placeholder={"Search"}></input>
+                        <Form.Control type="text" placeholder="Search" value={Search} onChange={searchChange} />
+                            <Button className='submitButton' variant="primary" onClick={onClick}>Search</Button>
                         </NavDropdown>
                         <NavDropdown title="Account">
                             <NavDropdown.Item><Link className='nav-sublink' to="/registration">Registration</Link></NavDropdown.Item>

@@ -12,8 +12,10 @@ import AboutPage from "../pages/AboutPage"
 import ListingPage from "../pages/ListingPage";
 import LoginPage from "../pages/LoginPage";
 import RegistrationPage from "../pages/RegistrationPage";
-import DescriptionPage from "../pages/DescriptionPage"
-import PropertyTypePage from "../pages/PropertyTypePage"
+import DescriptionPage from "../pages/DescriptionPage";
+import PropertyTypePage from "../pages/PropertyTypePage";
+import SearchPage from "../pages/SearchPage";
+import DashBoardPage from '../pages/DashBoardPage';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/css/App.css';
@@ -69,11 +71,11 @@ const App = () => {
         <Route path="about" element={<AboutPage />} />
         <Route path="listings" element={<ListingPage listings={listings} updateListings={updateListings} />} />
         <Route path="property" element={<PropertyTypePage listings={listings} updateListings={updateListings} />} />
+        <Route path="search" element={<SearchPage listings={listings} updateListings={updateListings} />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="registration" element={<RegistrationPage />} />
         <Route path="listings/:id" element={<DescriptionPage />} />
-
-
+        <Route path="dashboard" element={<DashBoardPage />} />
       </Routes>
 
     </BrowserRouter>
