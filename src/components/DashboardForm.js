@@ -15,7 +15,7 @@ const DashBoardForm = () => {
 
     useEffect(() => {
         //Check for login
-        if (email === undefined) {
+        if (!cookies.email) {
             navigate(`/login`);
         }
     }, [])

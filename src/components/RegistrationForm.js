@@ -60,18 +60,19 @@ const RegistrationForm = () => {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(user)
-            }) // GET
-                .then(response => response.json())
+            }).then(response => response.json())
                 .then(json => {
                     setSuccessful(false)
                     
-                    sleep(3000)
-                    navigate(`/login`);
+                    sleep(3000).then(()=>{
+                        navigate(`/login`);
+                    })
                 })
                 .catch(err => {
                     setAdmin(false)
                     setadminMessage(err)
-                    console.log(err)}
+                    console.log(err)
+                }
                 )
         }
     };
