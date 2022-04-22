@@ -61,26 +61,28 @@ const RegistrationForm = () => {
                 },
                 body: JSON.stringify(user)
             }).then((response) => {
-                return (response.json(), response.status);
-            }).then((json, status) => {
-                if (status === 200) {
+                if (response.status == 200) {   // *** This can be just `if (response.ok) {`
+                    return response.json();
+                }
+                else
+                {
+                    throw `${response.json()}`;
+                }
+            }).then(json => {
                     setSuccessful(false)
-
-                    sleep(3000).then(() => {
+                    
+                    sleep(3000).then(()=>{
                         navigate(`/login`);
                     })
-                } else {
-                    setAdmin(false)
-                    setadminMessage(json.message)
-                    console.log(json)
-                    console.log(json.message)
-                }
-
-            })
+                })
                 .catch(err => {
+                    let message = ""
+                    err.then((json)=>{
+                        message = err.message;
+                    })
                     setAdmin(false)
-                    setadminMessage(err)
-                    console.log(err)
+                    setadminMessage(message)
+                    console.log(message)
                 }
                 )
         }
