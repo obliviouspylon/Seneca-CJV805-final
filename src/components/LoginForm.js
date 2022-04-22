@@ -56,7 +56,7 @@ const LoginForm = () => {
                     cookies.set('lastName', json.lname, { path: '/' });
                     cookies.set('email', json.email, { path: '/' });
 
-                    console.log(document.cookie)
+                    console.log(cookies)
                     navigate(`/dashboard`);
                 })
                 .catch(err => {
