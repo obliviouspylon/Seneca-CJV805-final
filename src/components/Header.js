@@ -49,7 +49,7 @@ const Header = () => {
                     <Nav className='ms-auto'>
                         <NavDropdown title="Search">
                             <Form.Control type="text" placeholder="Search" value={Search} onChange={searchChange} />
-                            <Button className='submitButton' variant="primary" onClick={onClick}>Search</Button>
+                            <Link to={`/search?title=${Search}`}><Button className='submitButton' variant="primary">Search</Button></Link>
                         </NavDropdown>
                         <NavDropdown title="Account">
                             {

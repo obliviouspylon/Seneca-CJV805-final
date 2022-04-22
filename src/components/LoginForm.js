@@ -47,9 +47,14 @@ const LoginForm = () => {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(user)
-            }) // GET
-                .then(response => response.json())
-                .then(json => {
+            }).then((response) => {
+                if (response.status == 200) {   // *** This can be just `if (response.ok) {`
+                    console.log("Login Successful")
+                    return response.json();
+                } else {
+                    throw response;
+                }
+            }).then(json => {
                     setSuccessful(false)
                     console.log(json)
                     setCookie("email", json.email, {path: "/"});
@@ -60,11 +65,13 @@ const LoginForm = () => {
                     navigate(`/dashboard`);
                 })
                 .catch(err => {
-                    console.log(err)}
+                    err.json().then((data) => {
+                        console.log(data.message)
+                    }).catch((err) => {
+                        throw err
+                    });
+                }
                 )
-            document.cookie = {
-
-            }
         }
     };
 
