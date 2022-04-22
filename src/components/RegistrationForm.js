@@ -63,18 +63,15 @@ const RegistrationForm = () => {
             }).then((response) => {
                 if (response.status == 200) {   // *** This can be just `if (response.ok) {`
                     console.log("Register Successful")
-                }else {
+                    return response.json();
+                } else {
                     throw response;
-                    
                 }
-                return response.json();
             }).then(json => {
                 setSuccessful(false)
 
                 console.log("Redirecting to Login")
-                sleep(1000).then(() => {
-                    navigate(`/login`);
-                })
+                navigate(`/login`);
             }).catch(err => {
                 let message = ''
                 err.json().then((data) => {
